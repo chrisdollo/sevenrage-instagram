@@ -1,0 +1,22 @@
+name: Connect Instagram (one-time)
+
+# Run once after pasting a Facebook-login token (EAA...) into IG_TOKEN.
+# It finds @sevenrage7 through its Facebook Page and replaces IG_TOKEN with a
+# Page token that doesn't expire, plus saves IG_USER_ID. See SETUP.md.
+on:
+  workflow_dispatch:
+
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python autopost/connect.py
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}

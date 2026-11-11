@@ -37,7 +37,7 @@ STATE = C.ROOT / "state.json"
 SITE = C.ROOT / "site"
 JOB = C.ROOT / ".job.json"
 WINDOW_HOURS = 3  # a slot can still go out this long after its time (GitHub cron can lag)
-IG = os.environ.get("IG_API_BASE", "https://graph.instagram.com") + "/" + os.environ.get("IG_API_VERSION", "v24.0")
+API_VERSION = os.environ.get("IG_API_VERSION", "v24.0")
 
 
 def now_local():
@@ -103,12 +103,25 @@ def build(sid, slot, date, state, outdir, rng):
     return job
 
 
-# ---------- Instagram API (official Content Publishing API, Instagram Login) ----------
+# ---------- Instagram API (official Content Publishing API) ----------
+# Two kinds of token work:
+#   IGAA...  Instagram Login token  -> graph.instagram.com
+#   EAA...   Facebook Page token    -> graph.facebook.com (made by connect.py, never expires)
+
+def token():
+    return os.environ["IG_TOKEN"].strip()
+
+
+def api_base():
+    if token().startswith("IG"):
+        return os.environ.get("IG_API_BASE", "https://graph.instagram.com") + "/" + API_VERSION
+    return os.environ.get("FB_API_BASE", "https://graph.facebook.com") + "/" + API_VERSION
+
 
 def ig(method, path, **params):
-    params["access_token"] = os.environ["IG_TOKEN"]
+    params["access_token"] = token()
     data = urllib.parse.urlencode(params).encode()
-    url = f"{IG}/{path}"
+    url = f"{api_base()}/{path}"
     if method == "GET":
         req = urllib.request.Request(f"{url}?{data.decode()}")
     else:
@@ -132,9 +145,23 @@ def wait_ready(container, timeout=600):
     raise RuntimeError(f"container {container} not ready after {timeout}s")
 
 
+def ig_user():
+    """(instagram account id, username) for whichever kind of token we have."""
+    if token().startswith("IG"):
+        me = ig("GET", "me", fields="user_id,username")
+        return me.get("user_id") or me["id"], me.get("username")
+    if os.environ.get("IG_USER_ID", "").strip():
+        uid = os.environ["IG_USER_ID"].strip()
+        return uid, ig("GET", uid, fields="username").get("username")
+    acct = ig("GET", "me", fields="instagram_business_account{id,username}").get("instagram_business_account")
+    if not acct:
+        raise RuntimeError("This Facebook token has no Instagram account linked. Run the 'Connect Instagram' "
+                           "workflow (see SETUP.md) so it can find @sevenrage7 and store the right token.")
+    return acct["id"], acct.get("username")
+
+
 def publish_job(job, base_url):
-    me = ig("GET", "me", fields="user_id,username")
-    uid = me.get("user_id") or me["id"]
+    uid, username = ig_user()
     urls = [base_url.rstrip("/") + "/" + f for f in job["files"]]
     if job["kind"] == "tweet":
         c = ig("POST", f"{uid}/media", media_type="REELS", video_url=urls[0],
@@ -148,7 +175,7 @@ def publish_job(job, base_url):
         c = ig("POST", f"{uid}/media", media_type="CAROUSEL", children=",".join(kids),
                caption=job["caption"])["id"]
     wait_ready(c)
-    return ig("POST", f"{uid}/media_publish", creation_id=c)["id"], me.get("username")
+    return ig("POST", f"{uid}/media_publish", creation_id=c)["id"], username
 
 
 # ---------- commands ----------

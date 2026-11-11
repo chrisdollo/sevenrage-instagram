@@ -78,6 +78,7 @@ jobs:
         run: python autopost/run.py publish
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           PAGES_URL: ${{ steps.deploy.outputs.page_url }}
       - name: Save what was posted
         run: |

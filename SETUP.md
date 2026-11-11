@@ -69,6 +69,41 @@ button names below may be slightly different.
 You don't need Meta's app review; it's only needed when an app posts for
 *other* people's accounts.
 
+### 3b. If you only get a Facebook-login token (starts with `EA`)
+
+This is the route that's used now. The automation turns it into a Page token
+that never expires.
+
+1. **Link @sevenrage7 to a Facebook Page.** Create an empty Page called
+   "7rage" if you don't have one. Then link them: Instagram app → Settings →
+   **Accounts Center**, or the Page's **Settings → Linked accounts → Instagram**.
+2. **Get a token with the right permissions.** The easiest place is
+   **developers.facebook.com/tools/explorer** (Graph API Explorer):
+   - top right: pick your app (`7rage poster`)
+   - "User or Page": **User Token**
+   - Permissions: add `instagram_basic`, `instagram_content_publish`,
+     `pages_show_list`, `pages_read_engagement` (and `business_management` if
+     your Page is in a Business portfolio)
+   - **Generate Access Token**. When Facebook asks, select the 7rage Page
+     **and** the @sevenrage7 account. Copy the `EAA…` token.
+3. **Get the app ID and secret:** your app → **App settings → Basic** → copy
+   **App ID**, then click **Show** next to **App secret** and copy it.
+4. Add/update these repo secrets (Settings → Secrets and variables → Actions):
+
+   | Name | Value |
+   |---|---|
+   | `IG_TOKEN` | the `EAA…` token |
+   | `META_APP_ID` | the App ID |
+   | `META_APP_SECRET` | the App secret |
+
+5. **Within the hour** (tokens from the Explorer expire in 1–2 hours), go to
+   **Actions → Connect Instagram (one-time) → Run workflow**. It replaces
+   `IG_TOKEN` with a never-expiring Page token and saves `IG_USER_ID`. The log
+   should end with `Done. Posts will go to @sevenrage7.` If it says a
+   permission or the Page link is missing, fix that and repeat steps 2, 4 and 5.
+
+Needs `SECRETS_PAT` from step 5 below, so create that first.
+
 ## 4. Get the Claude key, for writing new lines (5 min)
 
 1. Go to **console.anthropic.com**, sign up, and add a small amount of credit

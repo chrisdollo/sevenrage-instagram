@@ -16,6 +16,9 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           GH_TOKEN: ${{ secrets.SECRETS_PAT }}
         run: |
+          case "$IG_TOKEN" in
+            EA*) echo "Facebook Page token: it doesn't expire, nothing to renew."; exit 0 ;;
+          esac
           resp=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_TOKEN}")
           new=$(echo "$resp" | python3 -c 'import sys,json; print(json.load(sys.stdin)["access_token"])')
           echo "::add-mask::$new"
