@@ -1,0 +1,52 @@
+name: Refill tweet library
+
+# Every Monday: if fewer than 40 unused tweets are left, Claude writes 50 new ones
+# and opens a pull request. Merging the pull request approves them.
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Write a batch now even if the library isn't low"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refill:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip if a refill is already waiting for approval
+        id: open
+        run: |
+          n=$(gh pr list --state open --json headRefName -q '[.[] | select(.headRefName | startswith("refill-"))] | length')
+          echo "waiting=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - if: steps.open.outputs.waiting == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - if: steps.open.outputs.waiting == 'false'
+        run: pip install anthropic
+      - if: steps.open.outputs.waiting == 'false'
+        id: refill
+        run: python autopost/refill.py ${{ inputs.force && '--force' || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - if: steps.refill.outputs.needed == 'true'
+        name: Open pull request
+        run: |
+          branch="refill-$(date +%Y-%m-%d-%H%M)"
+          git config user.name "7rage bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add tweets.txt
+          git commit -m "New lines for approval"
+          git push -u origin "$branch"
+          gh pr create --base main --head "$branch" --title "New 7rage lines: approve by merging" --body-file .refill.md

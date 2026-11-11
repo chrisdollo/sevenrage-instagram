@@ -1,0 +1,13 @@
+#!/bin/zsh
+# Preview posts on this Mac exactly as the autoposter will render them. Output: previews/
+#   ./preview tweet 24              line 24 from tweets.txt
+#   ./preview tweet 24 --reel       also the Reel video (add --mood=calm|hopeful|bounce|silent)
+#   ./preview quote 48              quote 48 from quotes.txt
+#   ./preview tweet "any new line"
+#   ./preview slot 2026-11-19-pm    exactly what that slot would post (random pick)
+DIR="${0:A:h}"
+if [[ ! -x "$DIR/.venv/bin/python" ]]; then
+  echo "first run: setting up..." >&2
+  python3 -m venv "$DIR/.venv" && "$DIR/.venv/bin/pip" -q install -r "$DIR/autopost/requirements.txt" || exit 1
+fi
+exec "$DIR/.venv/bin/python" "$DIR/autopost/run.py" preview "$@"

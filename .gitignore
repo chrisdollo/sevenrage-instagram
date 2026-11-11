@@ -1,0 +1,11 @@
+# reference screenshots of other people's tweets: keep local, never publish
+tweet-examples/
+
+# generated
+site/
+previews/
+.job.json
+.refill.md
+__pycache__/
+.venv/
+.DS_Store
