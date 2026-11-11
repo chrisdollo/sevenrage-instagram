@@ -64,16 +64,35 @@ def main():
     mask(long_user)
 
     print("2/4 looking for the Facebook Page linked to Instagram...")
-    pages = get("me/accounts", fields="name,access_token,instagram_business_account{id,username}",
-                limit=100, access_token=long_user).get("data", [])
+    fields = "name,access_token,instagram_business_account{id,username}"
+    pages = get("me/accounts", fields=fields, limit=100, access_token=long_user).get("data", [])
+
+    # Pages inside a Business portfolio often don't show up in me/accounts. The token's
+    # granular scopes still list the Page IDs it was granted, so ask for those directly.
+    info = get("debug_token", input_token=long_user, access_token=f"{app_id}|{secret}").get("data", {})
+    granted = sorted(info.get("scopes", []))
+    page_ids = {t for g in info.get("granular_scopes", []) if g.get("scope", "").startswith("pages_")
+                for t in g.get("target_ids", [])}
+    known = {p.get("id") for p in pages}
+    for pid in sorted(page_ids - known):
+        p = get(pid, fields=fields, access_token=long_user)
+        if p.get("access_token"):
+            pages.append(p)
+
     linked = [p for p in pages if p.get("instagram_business_account")]
     if not linked:
         names = ", ".join(p.get("name", "?") for p in pages) or "none"
         sys.exit("No Facebook Page with a linked Instagram account was found.\n"
-                 f"Pages this token can see: {names}.\n"
-                 "Fix: link @sevenrage7 to a Facebook Page (Instagram app → Settings → Accounts Center, "
-                 "or the Page's settings → Linked accounts → Instagram), and make sure the token was "
-                 "generated with pages_show_list and the Page selected. Then run this again.")
+                 f"  Pages this token can see: {names}\n"
+                 f"  Permissions the token has: {', '.join(granted) or 'none'}\n"
+                 f"  Page IDs it was granted: {', '.join(sorted(page_ids)) or 'none'}\n"
+                 "Fix, depending on the above:\n"
+                 "  - 'Pages ... none' and no Page IDs: when generating the token, tick the 7rage Page in "
+                 "Facebook's popup (to redo the popup: Facebook → Settings → Business integrations → remove "
+                 "the app, then generate again). Add business_management if the Page is in a Business portfolio.\n"
+                 "  - Page listed but this still fails: link @sevenrage7 to that Page (Page settings → "
+                 "Linked accounts → Instagram).\n"
+                 "  - pages_show_list missing from permissions: add it in Graph API Explorer and regenerate.")
     page = next((p for p in linked if p["instagram_business_account"].get("username", "").lower() == want),
                 linked[0])
     acct = page["instagram_business_account"]
