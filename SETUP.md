@@ -74,9 +74,14 @@ You don't need Meta's app review; it's only needed when an app posts for
 This is the route that's used now. The automation turns it into a Page token
 that never expires.
 
-1. **Link @sevenrage7 to a Facebook Page.** Create an empty Page called
-   "7rage" if you don't have one. Then link them: Instagram app → Settings →
-   **Accounts Center**, or the Page's **Settings → Linked accounts → Instagram**.
+1. **Link @sevenrage7 to a Facebook Page.** It has to be a *Page*: linking
+   Instagram to your Facebook *profile* in Accounts Center is not enough.
+   - Create one at **facebook.com/pages/create** (name `7rage`, category
+     "Digital creator"), using the same Facebook account you use on
+     developers.facebook.com.
+   - Switch into the Page → **Settings → Linked accounts → Instagram →
+     Connect** → log in as @sevenrage7. (Or Meta Business Suite → Settings →
+     Instagram accounts.)
 2. **Get a token with the right permissions.** The easiest place is
    **developers.facebook.com/tools/explorer** (Graph API Explorer):
    - top right: pick your app (`7rage poster`)

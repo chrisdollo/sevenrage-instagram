@@ -180,6 +180,14 @@ def publish_job(job, base_url):
 
 # ---------- commands ----------
 
+def cmd_check():
+    """Fast, dependency-free: is a slot due right now?"""
+    state, now = load_state(), now_local()
+    sid, _ = due_slot(state, now)
+    print(f"{now:%a %Y-%m-%d %H:%M} {C.TZ}: " + (f"{sid} is due" if sid else "nothing due"))
+    output(due="true" if sid else "false")
+
+
 def cmd_prepare():
     state, now = load_state(), now_local()
     sid, slot = due_slot(state, now)
@@ -247,5 +255,5 @@ def cmd_status():
 
 if __name__ == "__main__":
     a = [x for x in sys.argv[1:] if not x.startswith("--")]
-    {"prepare": cmd_prepare, "publish": cmd_publish, "status": cmd_status}.get(
+    {"check": cmd_check, "prepare": cmd_prepare, "publish": cmd_publish, "status": cmd_status}.get(
         a[0] if a else "", lambda: cmd_preview(a[1:]) if a and a[0] == "preview" else print(__doc__))()
