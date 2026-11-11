@@ -1,11 +1,12 @@
 name: Post to Instagram
 
-# Checks every 20 minutes during the 3 hours after 8:00 and 19:00 New York time
-# (UTC hours cover both summer and winter time). GitHub sometimes delays or drops
-# scheduled runs, so several chances per slot. run.py only posts once per slot.
+# Slots (New York time): 12 AM, 5 AM, 10 AM, 12 PM, 4 PM, 7 PM. Checks every 20 minutes
+# around the clock (works through daylight-saving changes; a check that finds nothing
+# due takes a few seconds). A slot can go out up to 2 hours late, so GitHub delaying
+# or dropping a scheduled run doesn't skip a post. run.py only posts once per slot.
 on:
   schedule:
-    - cron: "*/20 12-16,23,0-3 * * *"
+    - cron: "5,25,45 * * * *"
   workflow_dispatch:
     inputs:
       now:

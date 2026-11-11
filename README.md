@@ -1,7 +1,7 @@
 # 7rage (@sevenrage7)
 
 Daily motivation and relatable feelings for young adults going through it.
-One line, twice a day, that reads like a friend texting you at 1am, not a
+One line at a time, six times a day, that reads like a friend texting you at 1am, not a
 poster on a wall.
 
 **Fully automated:** GitHub Actions renders and publishes every post through
@@ -17,10 +17,10 @@ Instagram's official API. Nothing to do day to day.
 | File | What it is |
 |---|---|
 | `voice.md` | The voice and page philosophy. Claude writes new lines from it, and the Instagram skills read it too |
-| `tweets.txt` | Original 7rage lines, numbered, in 3 sections: A going through it, B get back up, C laugh at it |
+| `tweets.txt` | Original 7rage lines, numbered, in 4 sections: A going through it, B get back up, C laugh at it, D up early (5 AM) |
 | `quotes.txt` | Borrowed quotes: `NUMBER \| ✓/~ \| quote \| source`. ✓ = sourced, ~ = attribution uncertain (shown as "attributed") |
 | `state.json` | What's been posted and when (written by the bot, created after the first post) |
-| `logo.png` | Profile photo, also used as the avatar on tweet posts |
+| `logo.jpg` | Profile photo, also used as the avatar on tweet posts |
 | `autopost/` | The automation: `run.py` (scheduler + Instagram publishing), `render.py` (images and Reels), `music.py` (generated background music), `content.py` (plan, captions, picking), `refill.py` (new lines via Claude) |
 | `.github/workflows/` | When things run: posting, refilling, token renewal |
 | `preview` | Preview any post on the Mac before it goes live |
@@ -28,7 +28,7 @@ Instagram's official API. Nothing to do day to day.
 
 ## The voice (short version)
 
-Mostly lowercase, one line, usually under 20 words, with the punch at the
+Sentence case (capital first letter and "I"), one line, usually under 20 words, with the punch at the
 end. Spoken grammar is fine ("ain't", "i be", "lowkey"). Mild swearing is
 fine; slurs never ("man" instead of the n-word). No "rise and grind" clichés.
 The full version is in `voice.md`.
@@ -44,23 +44,22 @@ The full version is in `voice.md`.
 
 - **Tweet style:** original lines. Logo, `7rage`, `@sevenrage7`, then the line (Inter font).
 - **Quote style:** borrowed quotes, always credited (Gelasio italic).
-- Reels are 7 seconds, 1080×1920, with a slow zoom. Half get generated
-  background music matched to the mood, half are silent.
+- Reels are 7 seconds, 1080×1920, a still image (no zoom). The 5 AM Reels
+  always get upbeat generated music; the others get music half the time.
 
-## Weekly plan: 2 posts a day (8:00 AM and 7:00 PM New York)
+## Daily plan: 6 posts a day (New York time)
 
-| Day | 8:00 AM | 7:00 PM |
-|---|---|---|
-| Mon | Tweet Reel (going through it) | Quote image |
-| Tue | Tweet Reel (get back up) | Tweet Reel (laugh at it) |
-| Wed | Tweet Reel (going through it) | Tweet dump, 5-slide carousel |
-| Thu | Quote image | Tweet Reel (laugh at it) |
-| Fri | Tweet Reel (get back up) | Tweet Reel (going through it) |
-| Sat | Quote image | Tweet dump, 5-slide carousel |
-| Sun | Tweet Reel (get back up) | Quote image |
+| Time | Post |
+|---|---|
+| 12:00 AM | Tweet Reel (going through it) |
+| 5:00 AM | Tweet Reel (up early: get up and work), always with music |
+| 10:00 AM | Quote image |
+| 12:00 PM | Tweet Reel (laugh at it) |
+| 4:00 PM | Quote image (Wed and Sat: tweet dump, 5-slide carousel) |
+| 7:00 PM | Tweet Reel (get back up) |
 
-That's 8 Reels, 4 quotes and 2 carousels a week, using about 18 tweet lines
-and 4 quotes. Lines never repeat until the library is used up; then the
+That's 28 Reels, 12 quotes and 2 carousels a week, using about 38 tweet
+lines and 12 quotes. Lines never repeat until the library is used up; then the
 oldest come back after at least 60 days.
 
 ## Growth notes
@@ -84,6 +83,6 @@ oldest come back after at least 60 days.
 | Professional / Creator account | ✓ done |
 | Bio | ✓ done |
 | Name field: `7rage \| Daily Motivation` | ⏳ locked by Instagram, retry in a few days |
-| Profile photo: `logo.png` | ⏳ |
+| Profile photo: `logo.jpg` | ⏳ |
 | Pin 3 posts | ⏳ after the first week (best quote, best tweet, best Reel) |
 | Highlights | ⏳ optional |

@@ -9,17 +9,17 @@ the little that's left and how to change things.
 
 | When | What | Where |
 |---|---|---|
-| ~8:00 AM and ~7:00 PM New York, daily | Picks the next unused line, renders the image or Reel, publishes it, records it in `state.json` | `.github/workflows/post.yml` |
-| Mondays | If fewer than 40 unused tweets are left, Claude writes 50 new ones and opens a pull request | `.github/workflows/refill.yml` |
+| 12 AM, 5 AM, 10 AM, 12 PM, 4 PM, 7 PM New York, daily (checked every 20 min, posts within ~20 min of the slot) | Picks the next unused line, renders the image or Reel, publishes it, records it in `state.json` | `.github/workflows/post.yml` |
+| Mondays | If fewer than 80 unused tweets are left, Claude writes 56 new ones and opens a pull request | `.github/workflows/refill.yml` |
 | Mondays | Renews the Instagram token (it would expire after 60 days) | `.github/workflows/token.yml` |
 
 The weekly plan (which post type goes out in which slot) is in the README.
-Half the Reels get generated background music (calm, hopeful or bouncy,
-matched to the line's mood) and half are silent.
+The 5 AM Reels always get upbeat generated music. Half of the other Reels get
+music (calm, hopeful or bouncy, matched to the line's mood) and half are silent.
 
 ---
 
-## The only regular job: approve new lines (about once every 5 weeks, 2 min)
+## The only regular job: approve new lines (about every 1–2 weeks, 2 min)
 
 When the library runs low, GitHub emails you about a pull request called
 **"New 7rage lines: approve by merging"**.
@@ -34,7 +34,7 @@ If you never merge it, nothing breaks: after the unused lines run out, old
 ones come back around (each line waits at least 60 days before it can repeat).
 
 **Quotes** aren't auto-written, because Claude could misattribute a quote. The
-100 in `quotes.txt` last about 25 weeks, then recycle. To add more, ask
+345 in `quotes.txt` last about 28 weeks at 12 a week, then recycle. To add more, ask
 Claude in this folder ("find 50 more quotes for quotes.txt that match
 voice.md") and push the change.
 
@@ -81,20 +81,20 @@ Ask Claude in this folder, or edit and push:
 
 | To change | Where |
 |---|---|
-| Post times | `SLOT_TIMES` in `autopost/content.py` **and** the `cron` line in `.github/workflows/post.yml` |
-| Weekly plan (Reels / quotes / carousels per slot) | `PLAN` in `autopost/content.py` |
-| How many Reels get music | `MUSIC_SHARE` in `autopost/content.py` (0 = all silent, 1 = all with music) |
+| Post times | `SLOT_TIMES` and `DAILY` in `autopost/content.py` (the workflow checks every 20 min, so no cron change needed) |
+| What posts in each slot | `DAILY` (every day) and `CHANGES` (per weekday) in `autopost/content.py` |
+| How many Reels get music | `MUSIC_SHARE` in `autopost/content.py`, per category (0 = all silent, 1 = all with music) |
 | Caption phrasings, hashtags | `CAPTIONS`, `SEARCH`, `TAGS` in `autopost/content.py` |
 | Colors, fonts, layout | `autopost/render.py` |
 | The voice Claude writes in | `voice.md` |
-| Add your own lines | `tweets.txt`, under the right `== A/B/C ==` section, with the next free number |
+| Add your own lines | `tweets.txt`, under the right `== A/B/C/D ==` section, with the next free number |
 
 To see how something looks before it goes live, run on the Mac:
 
 ```bash
 ./preview tweet 24 --reel --mood=hopeful
 ./preview quote 48
-./preview slot 2026-11-19-pm
+./preview slot 2026-11-19-0500
 ```
 
 Output lands in `previews/`.

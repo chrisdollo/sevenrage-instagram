@@ -5,22 +5,26 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TZ = "America/New_York"
-SLOT_TIMES = {"am": (8, 0), "pm": (19, 0)}
+# slot id -> local time. "0000" is midnight at the start of that date.
+SLOT_TIMES = {"0000": (0, 0), "0500": (5, 0), "1000": (10, 0), "1200": (12, 0),
+              "1600": (16, 0), "1900": (19, 0)}
 
-# weekday (0 = Mon) -> {slot: (kind, tweet category)}.
 # kinds: tweet = Reel, quote = image post, dump = 5-slide carousel of tweets
-PLAN = {
-    0: {"am": ("tweet", "A"), "pm": ("quote", None)},
-    1: {"am": ("tweet", "B"), "pm": ("tweet", "C")},
-    2: {"am": ("tweet", "A"), "pm": ("dump", None)},
-    3: {"am": ("quote", None), "pm": ("tweet", "C")},
-    4: {"am": ("tweet", "B"), "pm": ("tweet", "A")},
-    5: {"am": ("quote", None), "pm": ("dump", None)},
-    6: {"am": ("tweet", "B"), "pm": ("quote", None)},
+# tweet categories: A going through it, B get back up, C laugh at it, D up early (5 AM energy)
+DAILY = {
+    "0000": ("tweet", "A"),   # late night, relatable
+    "0500": ("tweet", "D"),   # get up and work
+    "1000": ("quote", None),
+    "1200": ("tweet", "C"),   # lunch break laugh
+    "1600": ("quote", None),
+    "1900": ("tweet", "B"),   # evening push
 }
+# weekday (0 = Mon) -> {slot: (kind, category)} overrides
+CHANGES = {2: {"1600": ("dump", None)}, 5: {"1600": ("dump", None)}}
+PLAN = {d: {**DAILY, **CHANGES.get(d, {})} for d in range(7)}
 DUMP_SIZE = 5
-MUSIC_SHARE = 0.5  # share of Reels that get generated music; the rest are silent
-MOOD = {"A": "calm", "B": "hopeful", "C": "bounce"}
+MUSIC_SHARE = {"A": 0.5, "B": 0.5, "C": 0.5, "D": 1.0}  # share of Reels with generated music; rest silent
+MOOD = {"A": "calm", "B": "hopeful", "C": "bounce", "D": "bounce"}
 RECYCLE_AFTER_DAYS = 60
 
 CAPTIONS = {
@@ -31,17 +35,20 @@ CAPTIONS = {
     "C": ["send this to the friend who's built the same", "be honest, this is you",
           "tag someone who needs to laugh at their life today",
           "if you laughed you're probably going through it too"],
+    "D": ["you up? good. send this to whoever's still asleep", "save this for tomorrow's alarm",
+          "tag the friend you're working early with", "this is your sign. get up"],
     "quote": ["read that twice.", "save this one.", "send this to someone who needs it today.",
               "some lines age well."],
     "dump": ["which one is you? comment the number", "swipe till one hits. send it to who it's about",
              "pick one for today"],
 }
 SEARCH = ["daily motivation and relatable quotes for young men going through it.",
-          "relatable quotes and daily motivation, twice a day.",
+          "relatable quotes and daily motivation, every day.",
           "motivation for the ones handling it quietly."]
 TAGS = {
     "A": "#relatablequotes #relatable #deepthoughts #mentalhealthmatters",
     "B": "#dailymotivation #motivationformen #keepgoing #discipline",
+    "D": "#morningmotivation #discipline #dailymotivation #motivationformen",
     "C": "#relatablememes #relatablequotes #funnyquotes #relatable",
     "quote": "#quotestoliveby #dailymotivation #wisdom #motivationalquotes",
     "dump": "#relatablequotes #dailymotivation #motivationformen #relatable",
@@ -58,7 +65,8 @@ def load_tweets():
             continue
         m = re.match(r"^(\d+)\. (.+)$", line)
         if m and cat:
-            out[int(m.group(1))] = (cat, m.group(2).strip())
+            text = m.group(2).strip()
+            out[int(m.group(1))] = (cat, text[:1].upper() + text[1:])
     return out
 
 

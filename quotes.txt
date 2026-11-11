@@ -1,121 +1,374 @@
 # 7rage borrowed quotes. Format: NUMBER | STATUS | quote | source
 # STATUS: ✓ = traced to a named book/film/speech, ~ = widely attributed, no solid source (shows as 'attributed').
-# Translations (Camus, Virgil, Rilke, Musashi, Laozi) vary by edition. Check wording against the original before posting.
+# Translations (Camus, Virgil, Rilke, Musashi, Laozi, Seneca, Marcus Aurelius) vary by edition.
 
-== 1. Life is coming at you ==
-1 | ✓ | Everybody has a plan until they get punched in the mouth. | Mike Tyson, interview (1987)
-2 | ✓ | Let me tell you something you already know. The world ain't all sunshine and rainbows. | Rocky Balboa (2006)
-3 | ✓ | Sometimes life is going to hit you in the head with a brick. Don't lose faith. | Steve Jobs, Stanford commencement (2005)
-4 | ✓ | It's a dangerous business, Frodo, going out your door. | Tolkien, The Fellowship of the Ring
-5 | ✓ | All we have to decide is what to do with the time that is given us. | Tolkien, The Fellowship of the Ring
-6 | ✓ | Life moves pretty fast. If you don't stop and look around once in a while, you could miss it. | Ferris Bueller's Day Off (1986)
-7 | ✓ | Life is like a box of chocolates. You never know what you're gonna get. | Forrest Gump (1994)
-8 | ✓ | Life for me ain't been no crystal stair. | Langston Hughes, "Mother to Son"
-9 | ~ | Everyone you meet is fighting a battle you know nothing about. | attributed to Ian Maclaren
-10 | ✓ | A heart's a heavy burden. | Howl's Moving Castle (2004)
-11 | ✓ | What's past is prologue. | Shakespeare, The Tempest
+== 1. Simple, but hard. It takes practice. ==
+1 | ✓ | Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water. | Zen proverb
+2 | ✓ | There's a difference between knowing the path and walking the path. | Morpheus, The Matrix (1999)
+3 | ✓ | Sucking at something is the first step towards being sorta good at something. | Jake the Dog, Adventure Time
+4 | ✓ | A smooth sea never made a skilled sailor. | Proverb
+5 | ✓ | We are what we repeatedly do. Excellence, then, is not an act, but a habit. | Will Durant, The Story of Philosophy (summarising Aristotle)
+6 | ✓ | Today is victory over yourself of yesterday. | Miyamoto Musashi, The Book of Five Rings
+7 | ✓ | I'm not afraid of storms, for I'm learning how to sail my ship. | Louisa May Alcott, Little Women
+8 | ✓ | Do, or do not. There is no try. | Yoda, The Empire Strikes Back (1980)
+9 | ✓ | Discipline equals freedom. | Jocko Willink, Discipline Equals Freedom
+10 | ✓ | Be patient toward all that is unsolved in your heart. Live the questions now. | Rilke, Letters to a Young Poet
+11 | ✓ | Not everything that is faced can be changed, but nothing can be changed until it is faced. | James Baldwin, NYT Book Review (1962)
+12 | ✓ | You must do the thing you think you cannot do. | Eleanor Roosevelt, You Learn by Living
 
-== 2. Simple, but hard. It takes practice. ==
-12 | ✓ | Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water. | Zen proverb
-13 | ✓ | There's a difference between knowing the path and walking the path. | Morpheus, The Matrix (1999)
-14 | ✓ | Sucking at something is the first step towards being sorta good at something. | Jake the Dog, Adventure Time
-15 | ✓ | A smooth sea never made a skilled sailor. | Proverb
-16 | ✓ | We are what we repeatedly do. Excellence, then, is not an act, but a habit. | Will Durant, The Story of Philosophy (summarising Aristotle)
-17 | ✓ | Today is victory over yourself of yesterday. | Miyamoto Musashi, The Book of Five Rings
-18 | ✓ | I'm not afraid of storms, for I'm learning how to sail my ship. | Louisa May Alcott, Little Women
-19 | ✓ | Do, or do not. There is no try. | Yoda, The Empire Strikes Back (1980)
-20 | ✓ | Discipline equals freedom. | Jocko Willink, Discipline Equals Freedom
-21 | ✓ | Be patient toward all that is unsolved in your heart. Live the questions now. | Rilke, Letters to a Young Poet
-22 | ✓ | Not everything that is faced can be changed, but nothing can be changed until it is faced. | James Baldwin, NYT Book Review (1962)
-23 | ✓ | You must do the thing you think you cannot do. | Eleanor Roosevelt, You Learn by Living
+== 2. Get up and fight. The indomitable human spirit. ==
+13 | ✓ | Fall seven times, stand up eight. | Japanese proverb (nana korobi ya oki)
+14 | ✓ | It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward. | Rocky Balboa (2006)
+15 | ✓ | Why do we fall? So we can learn to pick ourselves up. | Batman Begins (2005)
+16 | ✓ | Do not go gentle into that good night. Rage, rage against the dying of the light. | Dylan Thomas
+17 | ✓ | I am the master of my fate, I am the captain of my soul. | W. E. Henley, "Invictus"
+18 | ✓ | My head is bloody, but unbowed. | W. E. Henley, "Invictus"
+19 | ✓ | You may shoot me with your words. But still, like air, I'll rise. | Maya Angelou, "Still I Rise"
+20 | ✓ | Never give in, never give in, never, never, never. | Winston Churchill, Harrow School speech (1941)
+21 | ✓ | A day may come when the courage of men fails. But it is not this day. | Aragorn, The Return of the King (2003)
+22 | ✓ | What we do in life echoes in eternity. | Gladiator (2000)
+23 | ✓ | Our greatest glory is not in never falling, but in rising every time we fall. | Oliver Goldsmith (often misattributed to Confucius)
+24 | ✓ | The harder the conflict, the more glorious the triumph. | Thomas Paine, The American Crisis
+25 | ~ | Do not pray for an easy life. Pray for the strength to endure a difficult one. | attributed to Bruce Lee
+26 | ✓ | There's some good in this world, Mr. Frodo, and it's worth fighting for. | Sam, The Two Towers (2002)
 
-== 3. Get up and fight. The indomitable human spirit. ==
-24 | ✓ | Fall seven times, stand up eight. | Japanese proverb (nana korobi ya oki)
-25 | ✓ | It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward. | Rocky Balboa (2006)
-26 | ✓ | Why do we fall? So we can learn to pick ourselves up. | Batman Begins (2005)
-27 | ✓ | Do not go gentle into that good night. Rage, rage against the dying of the light. | Dylan Thomas
-28 | ✓ | I am the master of my fate, I am the captain of my soul. | W. E. Henley, "Invictus"
-29 | ✓ | My head is bloody, but unbowed. | W. E. Henley, "Invictus"
-30 | ✓ | You may shoot me with your words. But still, like air, I'll rise. | Maya Angelou, "Still I Rise"
-31 | ✓ | Never give in, never give in, never, never, never. | Winston Churchill, Harrow School speech (1941)
-32 | ✓ | A day may come when the courage of men fails. But it is not this day. | Aragorn, The Return of the King (2003)
-33 | ✓ | What we do in life echoes in eternity. | Gladiator (2000)
-34 | ✓ | Our greatest glory is not in never falling, but in rising every time we fall. | Oliver Goldsmith (often misattributed to Confucius)
-35 | ✓ | The harder the conflict, the more glorious the triumph. | Thomas Paine, The American Crisis
-36 | ~ | Do not pray for an easy life. Pray for the strength to endure a difficult one. | attributed to Bruce Lee
-37 | ✓ | There's some good in this world, Mr. Frodo, and it's worth fighting for. | Sam, The Two Towers (2002)
+== 3. Slow motion is better than no motion ==
+27 | ✓ | If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward. | Martin Luther King Jr., Spelman College (1960)
+28 | ~ | It does not matter how slowly you go as long as you do not stop. | attributed to Confucius
+29 | ✓ | A journey of a thousand miles begins with a single step. | Laozi, Tao Te Ching
+30 | ✓ | One step at a time, one punch at a time, one round at a time. | Creed (2015)
+31 | ✓ | Just keep swimming. | Dory, Finding Nemo (2003)
+32 | ✓ | Don't watch the clock; do what it does. Keep going. | Sam Levenson
+33 | ✓ | The best way out is always through. | Robert Frost, "A Servant to Servants"
+34 | ~ | If you're going through hell, keep going. | attributed to Winston Churchill
+35 | ✓ | Sometimes life is like this dark tunnel. You can't always see the light at the end, but if you just keep moving, you will come to a better place. | Uncle Iroh, Avatar: The Last Airbender
+36 | ✓ | The sun himself is weak when he first rises, and gathers strength and courage as the day gets on. | Charles Dickens, The Old Curiosity Shop
 
-== 4. Slow motion is better than no motion ==
-38 | ✓ | If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward. | Martin Luther King Jr., Spelman College (1960)
-39 | ~ | It does not matter how slowly you go as long as you do not stop. | attributed to Confucius
-40 | ✓ | A journey of a thousand miles begins with a single step. | Laozi, Tao Te Ching
-41 | ✓ | One step at a time, one punch at a time, one round at a time. | Creed (2015)
-42 | ✓ | Just keep swimming. | Dory, Finding Nemo (2003)
-43 | ✓ | Don't watch the clock; do what it does. Keep going. | Sam Levenson
-44 | ✓ | The best way out is always through. | Robert Frost, "A Servant to Servants"
-45 | ~ | If you're going through hell, keep going. | attributed to Winston Churchill
-46 | ✓ | Sometimes life is like this dark tunnel. You can't always see the light at the end, but if you just keep moving, you will come to a better place. | Uncle Iroh, Avatar: The Last Airbender
-47 | ✓ | The sun himself is weak when he first rises, and gathers strength and courage as the day gets on. | Charles Dickens, The Old Curiosity Shop
+== 4. Giving up is the only way to fail. All defeat is psychological. ==
+37 | ✓ | A man can be destroyed but not defeated. | Hemingway, The Old Man and the Sea
+38 | ✓ | There is no failure except in no longer trying. | Elbert Hubbard
+39 | ~ | You may encounter many defeats, but you must not be defeated. | attributed to Maya Angelou
+40 | ✓ | I can be changed by what happens to me. But I refuse to be reduced by it. | Maya Angelou, Letter to My Daughter
+41 | ✓ | Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude. | Viktor Frankl, Man's Search for Meaning
+42 | ✓ | He who has a why to live can bear almost any how. | Nietzsche, Twilight of the Idols
+43 | ✓ | What does not kill me makes me stronger. | Nietzsche, Twilight of the Idols
+44 | ✓ | We suffer more often in imagination than in reality. | Seneca, Letters to Lucilius
+45 | ✓ | What stands in the way becomes the way. | Marcus Aurelius, Meditations
+46 | ✓ | Fear is the mind-killer. | Frank Herbert, Dune
+47 | ✓ | Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt. | Shakespeare, Measure for Measure
 
-== 5. Giving up is the only way to fail. All defeat is psychological. ==
-48 | ✓ | A man can be destroyed but not defeated. | Hemingway, The Old Man and the Sea
-49 | ✓ | There is no failure except in no longer trying. | Elbert Hubbard
-50 | ~ | You may encounter many defeats, but you must not be defeated. | attributed to Maya Angelou
-51 | ✓ | I can be changed by what happens to me. But I refuse to be reduced by it. | Maya Angelou, Letter to My Daughter
-52 | ✓ | Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude. | Viktor Frankl, Man's Search for Meaning
-53 | ✓ | He who has a why to live can bear almost any how. | Nietzsche, Twilight of the Idols
-54 | ✓ | What does not kill me makes me stronger. | Nietzsche, Twilight of the Idols
-55 | ✓ | We suffer more often in imagination than in reality. | Seneca, Letters to Lucilius
-56 | ✓ | What stands in the way becomes the way. | Marcus Aurelius, Meditations
-57 | ✓ | Fear is the mind-killer. | Frank Herbert, Dune
-58 | ✓ | Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt. | Shakespeare, Measure for Measure
+== 5. What can you do when there's nothing you can do? Do what you can. ==
+48 | ✓ | Do what you can, with what you have, where you are. | Theodore Roosevelt, Autobiography (quoting Squire Bill Widener)
+49 | ✓ | Waste no more time arguing what a good man should be. Be one. | Marcus Aurelius, Meditations
+50 | ✓ | Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, "I will try again tomorrow." | Mary Anne Radmacher
+51 | ✓ | The credit belongs to the man who is actually in the arena, who errs, who comes short again and again. | Theodore Roosevelt, "Citizenship in a Republic" (1910)
+52 | ✓ | Work hard, be kind, and amazing things will happen. | Conan O'Brien, final Tonight Show (2010)
+53 | ✓ | No one is useless in this world who lightens the burdens of another. | Charles Dickens, Our Mutual Friend
+54 | ~ | The best way to cheer yourself up is to try to cheer somebody else up. | attributed to Mark Twain
 
-== 6. What can you do when there's nothing you can do? Do what you can. ==
-59 | ✓ | Do what you can, with what you have, where you are. | Theodore Roosevelt, Autobiography (quoting Squire Bill Widener)
-60 | ✓ | Waste no more time arguing what a good man should be. Be one. | Marcus Aurelius, Meditations
-61 | ✓ | Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, "I will try again tomorrow." | Mary Anne Radmacher
-62 | ✓ | The credit belongs to the man who is actually in the arena, who errs, who comes short again and again. | Theodore Roosevelt, "Citizenship in a Republic" (1910)
-63 | ✓ | Work hard, be kind, and amazing things will happen. | Conan O'Brien, final Tonight Show (2010)
-64 | ✓ | No one is useless in this world who lightens the burdens of another. | Charles Dickens, Our Mutual Friend
-65 | ~ | The best way to cheer yourself up is to try to cheer somebody else up. | attributed to Mark Twain
+== 6. Mistakes will be made. Fail? Fail better. ==
+55 | ✓ | Ever tried. Ever failed. No matter. Try again. Fail again. Fail better. | Samuel Beckett, Worstward Ho
+56 | ✓ | I can't go on, I'll go on. | Samuel Beckett, The Unnamable
+57 | ✓ | Experience is the name everyone gives to their mistakes. | Oscar Wilde, Lady Windermere's Fan
+58 | ✓ | Every saint has a past, and every sinner has a future. | Oscar Wilde, A Woman of No Importance
+59 | ✓ | The past can hurt. But the way I see it, you can either run from it, or learn from it. | Rafiki, The Lion King (1994)
+60 | ~ | Failure is only the opportunity to begin again. Only this time, wiser. | attributed to Uncle Iroh, Avatar
+61 | ✓ | And now that you don't have to be perfect, you can be good. | John Steinbeck, East of Eden
+62 | ✓ | Rock bottom became the solid foundation on which I rebuilt my life. | J.K. Rowling, Harvard commencement (2008)
+63 | ✓ | It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all. | J.K. Rowling, Harvard commencement (2008)
+64 | ✓ | I've failed over and over and over again in my life. And that is why I succeed. | Michael Jordan, Nike ad (1997)
+65 | ✓ | You miss 100% of the shots you don't take. | Wayne Gretzky
+66 | ✓ | It's not your fault. | Good Will Hunting (1997)
 
-== 7. Mistakes will be made. Fail? Fail better. ==
-66 | ✓ | Ever tried. Ever failed. No matter. Try again. Fail again. Fail better. | Samuel Beckett, Worstward Ho
-67 | ✓ | I can't go on, I'll go on. | Samuel Beckett, The Unnamable
-68 | ✓ | Experience is the name everyone gives to their mistakes. | Oscar Wilde, Lady Windermere's Fan
-69 | ✓ | Every saint has a past, and every sinner has a future. | Oscar Wilde, A Woman of No Importance
-70 | ✓ | The past can hurt. But the way I see it, you can either run from it, or learn from it. | Rafiki, The Lion King (1994)
-71 | ~ | Failure is only the opportunity to begin again. Only this time, wiser. | attributed to Uncle Iroh, Avatar
-72 | ✓ | And now that you don't have to be perfect, you can be good. | John Steinbeck, East of Eden
-73 | ✓ | Rock bottom became the solid foundation on which I rebuilt my life. | J.K. Rowling, Harvard commencement (2008)
-74 | ✓ | It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all. | J.K. Rowling, Harvard commencement (2008)
-75 | ✓ | I've failed over and over and over again in my life. And that is why I succeed. | Michael Jordan, Nike ad (1997)
-76 | ✓ | You miss 100% of the shots you don't take. | Wayne Gretzky
-77 | ✓ | It's not your fault. | Good Will Hunting (1997)
+== 7. The sun will shine on us again ==
+67 | ✓ | In the midst of winter, I found there was, within me, an invincible summer. | Albert Camus, "Return to Tipasa"
+68 | ✓ | Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer. | Sam, The Two Towers (2002)
+69 | ✓ | Only when it is dark enough can you see the stars. | Martin Luther King Jr., "I've Been to the Mountaintop" (1968)
+70 | ✓ | Hope is a good thing, maybe the best of things, and no good thing ever dies. | The Shawshank Redemption (1994)
+71 | ✓ | Get busy living, or get busy dying. | The Shawshank Redemption (1994)
+72 | ✓ | Happiness can be found even in the darkest of times, if one only remembers to turn on the light. | Dumbledore, Prisoner of Azkaban (2004)
+73 | ✓ | Perhaps one day it will be pleasing to remember even these things. | Virgil, Aeneid
+74 | ✓ | Endure, and save yourselves for better days. | Virgil, Aeneid
+75 | ✓ | This too shall pass. | Persian adage
+76 | ✓ | We must accept finite disappointment, but never lose infinite hope. | Martin Luther King Jr.
+77 | ✓ | After all, tomorrow is another day. | Gone with the Wind
+78 | ✓ | Let everything happen to you: beauty and terror. Just keep going. No feeling is final. | Rilke, Book of Hours
+79 | ✓ | The world breaks everyone and afterward many are strong at the broken places. | Hemingway, A Farewell to Arms
+80 | ✓ | We are all in the gutter, but some of us are looking at the stars. | Oscar Wilde, Lady Windermere's Fan
 
-== 8. The sun will shine on us again ==
-78 | ✓ | In the midst of winter, I found there was, within me, an invincible summer. | Albert Camus, "Return to Tipasa"
-79 | ✓ | Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer. | Sam, The Two Towers (2002)
-80 | ✓ | Only when it is dark enough can you see the stars. | Martin Luther King Jr., "I've Been to the Mountaintop" (1968)
-81 | ✓ | Hope is a good thing, maybe the best of things, and no good thing ever dies. | The Shawshank Redemption (1994)
-82 | ✓ | Get busy living, or get busy dying. | The Shawshank Redemption (1994)
-83 | ✓ | Happiness can be found even in the darkest of times, if one only remembers to turn on the light. | Dumbledore, Prisoner of Azkaban (2004)
-84 | ✓ | Perhaps one day it will be pleasing to remember even these things. | Virgil, Aeneid
-85 | ✓ | Endure, and save yourselves for better days. | Virgil, Aeneid
-86 | ✓ | This too shall pass. | Persian adage
-87 | ✓ | We must accept finite disappointment, but never lose infinite hope. | Martin Luther King Jr.
-88 | ✓ | After all, tomorrow is another day. | Gone with the Wind
-89 | ✓ | Let everything happen to you: beauty and terror. Just keep going. No feeling is final. | Rilke, Book of Hours
-90 | ✓ | The world breaks everyone and afterward many are strong at the broken places. | Hemingway, A Farewell to Arms
-91 | ✓ | We are all in the gutter, but some of us are looking at the stars. | Oscar Wilde, Lady Windermere's Fan
+== 8. Be funny. Find the irony. Smile anyway. ==
+81 | ~ | Life is a tragedy when seen in close-up, but a comedy in long-shot. | attributed to Charlie Chaplin
+82 | ✓ | Death smiles at us all. All a man can do is smile back. | Gladiator (2000)
+83 | ✓ | One must imagine Sisyphus happy. | Albert Camus, The Myth of Sisyphus
+84 | ✓ | Life's disappointments are harder to take when you don't know any swear words. | Calvin, Calvin and Hobbes
+85 | ✓ | Be a goldfish. | Ted Lasso
+86 | ✓ | Don't Panic. | Douglas Adams, The Hitchhiker's Guide to the Galaxy
+87 | ✓ | Nobody exists on purpose. Nobody belongs anywhere. Everybody's gonna die. Come watch TV. | Rick and Morty
+88 | ✓ | "You miss 100% of the shots you don't take. – Wayne Gretzky" – Michael Scott | The Office
+89 | ✓ | Against the assault of laughter nothing can stand. | Mark Twain, The Mysterious Stranger
+90 | ✓ | We don't make mistakes, just happy little accidents. | Bob Ross, The Joy of Painting
+91 | ✓ | Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) | Walt Whitman, "Song of Myself"
+92 | ✓ | Why, sometimes I've believed as many as six impossible things before breakfast. | Lewis Carroll, Through the Looking-Glass
+93 | ✓ | I may not have gone where I intended to go, but I think I have ended up where I intended to be. | Douglas Adams, The Long Dark Tea-Time of the Soul
+94 | ✓ | Everybody wants to be a bodybuilder, but nobody wants to lift no heavy-ass weights. | Ronnie Coleman
+95 | ✓ | You is kind. You is smart. You is important. | The Help (2011)
 
-== 9. Be funny. Find the irony. Smile anyway. ==
-92 | ~ | Life is a tragedy when seen in close-up, but a comedy in long-shot. | attributed to Charlie Chaplin
-93 | ✓ | Death smiles at us all. All a man can do is smile back. | Gladiator (2000)
-94 | ✓ | One must imagine Sisyphus happy. | Albert Camus, The Myth of Sisyphus
-95 | ✓ | Life's disappointments are harder to take when you don't know any swear words. | Calvin, Calvin and Hobbes
-96 | ✓ | Be a goldfish. | Ted Lasso
-97 | ✓ | Don't Panic. | Douglas Adams, The Hitchhiker's Guide to the Galaxy
-98 | ✓ | Nobody exists on purpose. Nobody belongs anywhere. Everybody's gonna die. Come watch TV. | Rick and Morty
-99 | ✓ | "You miss 100% of the shots you don't take. – Wayne Gretzky" – Michael Scott | The Office
-100 | ✓ | Against the assault of laughter nothing can stand. | Mark Twain, The Mysterious Stranger
+== 9. Old wisdom: stoics, philosophers, proverbs ==
+96 | ✓ | It is not that we have a short time to live, but that we waste a lot of it. | Seneca, On the Shortness of Life
+97 | ✓ | Begin at once to live, and count each separate day as a separate life. | Seneca, Letters to Lucilius
+98 | ✓ | Wherever there is a human being, there is an opportunity for a kindness. | Seneca, On the Happy Life
+99 | ~ | Luck is what happens when preparation meets opportunity. | attributed to Seneca
+100 | ~ | Difficulties strengthen the mind, as labor does the body. | attributed to Seneca
+101 | ✓ | First say to yourself what you would be; and then do what you have to do. | Epictetus, Discourses
+102 | ~ | No man is free who is not master of himself. | attributed to Epictetus
+103 | ~ | It's not what happens to you, but how you react to it that matters. | attributed to Epictetus
+104 | ~ | Man is not worried by real problems so much as by his imagined anxieties about real problems. | attributed to Epictetus
+105 | ✓ | If it is not right, do not do it; if it is not true, do not say it. | Marcus Aurelius, Meditations
+106 | ✓ | The best revenge is not to be like your enemy. | Marcus Aurelius, Meditations
+107 | ✓ | Very little is needed to make a happy life; it is all within yourself, in your way of thinking. | Marcus Aurelius, Meditations
+108 | ~ | You have power over your mind, not outside events. Realize this, and you will find strength. | attributed to Marcus Aurelius
+109 | ✓ | The unexamined life is not worth living. | Socrates, in Plato's Apology
+110 | ✓ | Well begun is half done. | Aristotle, Politics
+111 | ~ | Knowing yourself is the beginning of all wisdom. | attributed to Aristotle
+112 | ~ | No man ever steps in the same river twice. | attributed to Heraclitus
+113 | ~ | The man who moves a mountain begins by carrying away small stones. | attributed to Confucius
+114 | ~ | Real knowledge is to know the extent of one's ignorance. | attributed to Confucius
+115 | ✓ | Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power. | Laozi, Tao Te Ching
+116 | ~ | Nature does not hurry, yet everything is accomplished. | attributed to Laozi
+117 | ~ | Do not seek to follow in the footsteps of the wise. Seek what they sought. | attributed to Matsuo Bashō
+118 | ✓ | Fortune favors the bold. | Virgil, Aeneid
+119 | ✓ | The best time to plant a tree was 20 years ago. The second best time is now. | Proverb
+120 | ✓ | The bamboo that bends is stronger than the oak that resists. | Japanese proverb
+121 | ✓ | When the winds of change blow, some people build walls and others build windmills. | Chinese proverb
+122 | ✓ | Vision without action is a daydream. Action without vision is a nightmare. | Japanese proverb
+123 | ✓ | If you want to go fast, go alone. If you want to go far, go together. | African proverb
+124 | ✓ | However long the night, the dawn will break. | African proverb
+125 | ✓ | When there is no enemy within, the enemies outside cannot hurt you. | African proverb
+126 | ✓ | Rain does not fall on one roof alone. | Cameroonian proverb
+127 | ~ | The man who has confidence in himself gains the confidence of others. | attributed to a Hasidic proverb
+128 | ✓ | Strength does not come from physical capacity. It comes from an indomitable will. | Mahatma Gandhi, "The Doctrine of the Sword" (1920)
+129 | ~ | The weak can never forgive. Forgiveness is the attribute of the strong. | attributed to Mahatma Gandhi
+130 | ~ | Man often becomes what he believes himself to be. | attributed to Mahatma Gandhi
+131 | ~ | First they ignore you, then they laugh at you, then they fight you, then you win. | attributed to Mahatma Gandhi
+
+== 10. Athletes and fighters ==
+132 | ✓ | Float like a butterfly, sting like a bee. | Muhammad Ali (1964)
+133 | ~ | I hated every minute of training, but I said, "Don't quit. Suffer now and live the rest of your life as a champion." | attributed to Muhammad Ali
+134 | ~ | Impossible is just a big word thrown around by small men. | attributed to Muhammad Ali
+135 | ~ | Don't count the days, make the days count. | attributed to Muhammad Ali
+136 | ~ | He who is not courageous enough to take risks will accomplish nothing in life. | attributed to Muhammad Ali
+137 | ~ | Champions aren't made in gyms. Champions are made from something they have deep inside them: a desire, a dream, a vision. | attributed to Muhammad Ali
+138 | ~ | The fight is won or lost far away from witnesses, behind the lines, in the gym, and out there on the road, long before I dance under those lights. | attributed to Muhammad Ali
+139 | ~ | The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life. | attributed to Muhammad Ali
+140 | ✓ | I can accept failure, everyone fails at something. But I can't accept not trying. | Michael Jordan, I Can't Accept Not Trying (1994)
+141 | ~ | Some people want it to happen, some wish it would happen, others make it happen. | attributed to Michael Jordan
+142 | ~ | If you quit once it becomes a habit. Never quit. | attributed to Michael Jordan
+143 | ~ | Obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it. | attributed to Michael Jordan
+144 | ~ | You have to expect things of yourself before you can do them. | attributed to Michael Jordan
+145 | ~ | Talent wins games, but teamwork and intelligence win championships. | attributed to Michael Jordan
+146 | ~ | Everything negative, pressure, challenges, is all an opportunity for me to rise. | attributed to Kobe Bryant
+147 | ~ | Rest at the end, not in the middle. | attributed to Kobe Bryant
+148 | ~ | If you're afraid to fail, then you're probably going to fail. | attributed to Kobe Bryant
+149 | ~ | Dedication sees dreams come true. | attributed to Kobe Bryant
+150 | ~ | You can't be afraid to fail. It's the only way you succeed. | attributed to LeBron James
+151 | ~ | Nothing is given. Everything is earned. | attributed to LeBron James
+152 | ~ | Hard work beats talent when talent doesn't work hard. | attributed to Tim Notke
+153 | ~ | Success isn't owned. It's leased, and rent is due every day. | attributed to J.J. Watt
+154 | ~ | You can't put a limit on anything. The more you dream, the farther you get. | attributed to Michael Phelps
+155 | ~ | Excellence is the gradual result of always striving to do better. | attributed to Pat Riley
+156 | ~ | It's not whether you get knocked down, it's whether you get up. | attributed to Vince Lombardi
+157 | ~ | Winners never quit and quitters never win. | attributed to Vince Lombardi
+158 | ✓ | Make each day your masterpiece. | John Wooden, his father's seven-point creed
+159 | ~ | Do not let what you cannot do interfere with what you can do. | attributed to John Wooden
+160 | ~ | Things turn out best for the people who make the best of the way things turn out. | attributed to John Wooden
+161 | ~ | It's hard to beat a person who never gives up. | attributed to Babe Ruth
+162 | ~ | Every strike brings me closer to the next home run. | attributed to Babe Ruth
+163 | ~ | Never let the fear of striking out keep you from playing the game. | attributed to Babe Ruth
+164 | ✓ | Pressure is a privilege. | Billie Jean King, Pressure Is a Privilege
+165 | ~ | Champions keep playing until they get it right. | attributed to Billie Jean King
+166 | ~ | You have to believe in yourself when no one else does. | attributed to Serena Williams
+167 | ~ | A champion is defined not by their wins but by how they can recover when they fall. | attributed to Serena Williams
+168 | ~ | I am lucky that whatever fear I have inside me, my desire to win is always stronger. | attributed to Serena Williams
+169 | ✓ | Be water, my friend. | Bruce Lee, Longstreet (1971)
+170 | ~ | I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times. | attributed to Bruce Lee
+171 | ~ | Mistakes are always forgivable, if one has the courage to admit them. | attributed to Bruce Lee
+172 | ~ | Knowing is not enough, we must apply. Willing is not enough, we must do. | attributed to Bruce Lee
+173 | ~ | Absorb what is useful, discard what is useless, and add what is specifically your own. | attributed to Bruce Lee
+174 | ~ | A goal is not always meant to be reached; it often serves simply as something to aim at. | attributed to Bruce Lee
+175 | ~ | Defeat is a state of mind; no one is ever defeated until defeat has been accepted as a reality. | attributed to Bruce Lee
+176 | ✓ | The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it. | Arnold Schwarzenegger, Pumping Iron (1977)
+177 | ~ | Strength does not come from winning. Your struggles develop your strengths. | attributed to Arnold Schwarzenegger
+178 | ~ | When you think that you are done, you're only at 40% of what your body is capable of doing. | attributed to David Goggins
+179 | ~ | Don't stop when you're tired. Stop when you're done. | attributed to David Goggins
+180 | ~ | You are in danger of living a life so comfortable and soft, that you will die without ever realizing your true potential. | attributed to David Goggins
+181 | ~ | Courage is fear holding on a minute longer. | attributed to George S. Patton
+182 | ~ | Pressure makes diamonds. | attributed to George S. Patton
+
+== 11. Writers, poets and leaders ==
+183 | ✓ | I learned that courage was not the absence of fear, but the triumph over it. | Nelson Mandela, Long Walk to Freedom
+184 | ~ | It always seems impossible until it's done. | attributed to Nelson Mandela
+185 | ~ | Do not judge me by my successes, judge me by how many times I fell down and got back up again. | attributed to Nelson Mandela
+186 | ~ | I never lose. I either win or learn. | attributed to Nelson Mandela
+187 | ✓ | Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that. | Martin Luther King Jr., Strength to Love (1963)
+188 | ✓ | The time is always right to do what is right. | Martin Luther King Jr., Oberlin College (1964)
+189 | ~ | Faith is taking the first step even when you don't see the whole staircase. | attributed to Martin Luther King Jr.
+190 | ✓ | If there is no struggle, there is no progress. | Frederick Douglass, West India Emancipation speech (1857)
+191 | ~ | It is easier to build strong children than to repair broken men. | attributed to Frederick Douglass
+192 | ~ | If you have no confidence in self, you are twice defeated in the race of life. | attributed to Marcus Garvey
+193 | ~ | I have learned over the years that when one's mind is made up, this diminishes fear. | attributed to Rosa Parks
+194 | ~ | Never be limited by other people's limited imaginations. | attributed to Mae Jemison
+195 | ~ | If they don't give you a seat at the table, bring a folding chair. | attributed to Shirley Chisholm
+196 | ✓ | When we are no longer able to change a situation, we are challenged to change ourselves. | Viktor Frankl, Man's Search for Meaning
+197 | ~ | Between stimulus and response there is a space. In that space is our power to choose our response. | attributed to Viktor Frankl
+198 | ~ | I am not what happened to me, I am what I choose to become. | attributed to Carl Jung
+199 | ~ | The cave you fear to enter holds the treasure you seek. | attributed to Joseph Campbell
+200 | ✓ | The secret of change is to focus all of your energy not on fighting the old, but on building the new. | Dan Millman, Way of the Peaceful Warrior
+201 | ✓ | Life is like riding a bicycle. To keep your balance, you must keep moving. | Albert Einstein, letter to his son Eduard (1930)
+202 | ~ | In the middle of difficulty lies opportunity. | attributed to Albert Einstein
+203 | ~ | It's not that I'm so smart, it's just that I stay with problems longer. | attributed to Albert Einstein
+204 | ~ | Anyone who has never made a mistake has never tried anything new. | attributed to Albert Einstein
+205 | ✓ | Genius is one percent inspiration and ninety-nine percent perspiration. | Thomas Edison, Harper's Monthly (1932)
+206 | ~ | I have not failed. I've just found 10,000 ways that won't work. | attributed to Thomas Edison
+207 | ~ | Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. | attributed to Thomas Edison
+208 | ~ | Many of life's failures are people who did not realize how close they were to success when they gave up. | attributed to Thomas Edison
+209 | ~ | Whether you think you can, or you think you can't, you're right. | attributed to Henry Ford
+210 | ~ | Nothing is particularly hard if you divide it into small jobs. | attributed to Henry Ford
+211 | ~ | Success is not final, failure is not fatal: it is the courage to continue that counts. | attributed to Winston Churchill
+212 | ~ | Success consists of going from failure to failure without loss of enthusiasm. | attributed to Winston Churchill
+213 | ~ | The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty. | attributed to Winston Churchill
+214 | ✓ | The only thing we have to fear is fear itself. | Franklin D. Roosevelt, first inaugural address (1933)
+215 | ✓ | Far better is it to dare mighty things, to win glorious triumphs, even though checkered by failure, than to rank with those poor spirits who neither enjoy much nor suffer much. | Theodore Roosevelt, "The Strenuous Life" (1899)
+216 | ~ | Believe you can and you're halfway there. | attributed to Theodore Roosevelt
+217 | ~ | Keep your eyes on the stars, and your feet on the ground. | attributed to Theodore Roosevelt
+218 | ~ | Comparison is the thief of joy. | attributed to Theodore Roosevelt
+219 | ~ | Courage is not having the strength to go on; it is going on when you don't have the strength. | attributed to Theodore Roosevelt
+220 | ~ | Whatever you are, be a good one. | attributed to Abraham Lincoln
+221 | ~ | Give me six hours to chop down a tree and I will spend the first four sharpening the axe. | attributed to Abraham Lincoln
+222 | ~ | I walk slowly, but I never walk backward. | attributed to Abraham Lincoln
+223 | ~ | Do one thing every day that scares you. | attributed to Eleanor Roosevelt
+224 | ~ | No one can make you feel inferior without your consent. | attributed to Eleanor Roosevelt
+225 | ~ | With the new day comes new strength and new thoughts. | attributed to Eleanor Roosevelt
+226 | ~ | The future belongs to those who believe in the beauty of their dreams. | attributed to Eleanor Roosevelt
+227 | ✓ | Lost time is never found again. | Benjamin Franklin, Poor Richard's Almanack
+228 | ✓ | Early to bed and early to rise, makes a man healthy, wealthy, and wise. | Benjamin Franklin, Poor Richard's Almanack
+229 | ✓ | Well done is better than well said. | Benjamin Franklin, Poor Richard's Almanack
+230 | ✓ | Either write something worth reading or do something worth writing. | Benjamin Franklin, Poor Richard's Almanack
+231 | ✓ | He that can have patience can have what he will. | Benjamin Franklin, Poor Richard's Almanack
+232 | ~ | Energy and persistence conquer all things. | attributed to Benjamin Franklin
+233 | ~ | I'm a great believer in luck, and I find the harder I work, the more I have of it. | attributed to Thomas Jefferson
+234 | ✓ | Courage is resistance to fear, mastery of fear, not absence of fear. | Mark Twain, Pudd'nhead Wilson
+235 | ~ | The secret of getting ahead is getting started. | attributed to Mark Twain
+236 | ~ | Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. | attributed to Mark Twain
+237 | ~ | The only person you are destined to become is the person you decide to be. | attributed to Ralph Waldo Emerson
+238 | ~ | What lies behind us and what lies before us are tiny matters compared to what lies within us. | attributed to Ralph Waldo Emerson
+239 | ~ | To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. | attributed to Ralph Waldo Emerson
+240 | ✓ | Not until we are lost do we begin to understand ourselves. | Henry David Thoreau, Walden
+241 | ~ | Go confidently in the direction of your dreams. Live the life you have imagined. | attributed to Henry David Thoreau
+242 | ✓ | I exist as I am, that is enough. | Walt Whitman, "Song of Myself"
+243 | ~ | Keep your face always toward the sunshine, and shadows will fall behind you. | attributed to Walt Whitman
+244 | ✓ | Hope is the thing with feathers that perches in the soul. | Emily Dickinson
+245 | ✓ | Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly. | Langston Hughes, "Dreams"
+246 | ✓ | There is no greater agony than bearing an untold story inside you. | Maya Angelou, I Know Why the Caged Bird Sings
+247 | ~ | Nothing will work unless you do. | attributed to Maya Angelou
+248 | ~ | Do the best you can until you know better. Then when you know better, do better. | attributed to Maya Angelou
+249 | ~ | If you don't like something, change it. If you can't change it, change your attitude. | attributed to Maya Angelou
+250 | ~ | You can't use up creativity. The more you use, the more you have. | attributed to Maya Angelou
+251 | ✓ | Courage, dear heart. | C.S. Lewis, The Voyage of the Dawn Treader
+252 | ~ | You are never too old to set another goal or to dream a new dream. | attributed to C.S. Lewis
+253 | ~ | Hardships often prepare ordinary people for an extraordinary destiny. | attributed to C.S. Lewis
+254 | ~ | There are far, far better things ahead than any we leave behind. | attributed to C.S. Lewis
+255 | ✓ | The best is yet to be. | Robert Browning, "Rabbi Ben Ezra"
+256 | ✓ | Two roads diverged in a wood, and I, I took the one less traveled by, and that has made all the difference. | Robert Frost, "The Road Not Taken"
+257 | ~ | In three words I can sum up everything I've learned about life: it goes on. | attributed to Robert Frost
+258 | ✓ | Now is no time to think of what you do not have. Think of what you can do with what there is. | Hemingway, The Old Man and the Sea
+259 | ✓ | It is better to be lucky. But I would rather be exact. Then when luck comes you are ready. | Hemingway, The Old Man and the Sea
+260 | ~ | Courage is grace under pressure. | attributed to Ernest Hemingway
+261 | ~ | There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self. | attributed to Ernest Hemingway
+262 | ~ | Never confuse a single defeat with a final defeat. | attributed to F. Scott Fitzgerald
+263 | ✓ | It's no use going back to yesterday, because I was a different person then. | Lewis Carroll, Alice's Adventures in Wonderland
+264 | ~ | It is never too late to be what you might have been. | attributed to George Eliot
+265 | ✓ | Only those who will risk going too far can possibly find out how far one can go. | T.S. Eliot, preface to Transit of Venus
+266 | ✓ | If you're going to try, go all the way. | Charles Bukowski, "Roll the Dice"
+267 | ✓ | What matters most is how well you walk through the fire. | Charles Bukowski, "How Is Your Heart?"
+268 | ~ | We are here to laugh at the odds and live our lives so well that Death will tremble to take us. | attributed to Charles Bukowski
+269 | ✓ | Pain is inevitable. Suffering is optional. | Haruki Murakami, What I Talk About When I Talk About Running
+270 | ✓ | And once the storm is over, you won't remember how you made it through. But one thing is certain: you won't be the same person who walked in. | Haruki Murakami, Kafka on the Shore
+271 | ~ | Out of suffering have emerged the strongest souls. | attributed to Kahlil Gibran
+272 | ✓ | Tough times never last, but tough people do. | Robert H. Schuller, Tough Times Never Last, But Tough People Do!
+273 | ✓ | A ship in harbor is safe, but that is not what ships are built for. | John A. Shedd, Salt from My Attic (1928)
+274 | ✓ | Believe that life is worth living and your belief will help create the fact. | William James, "Is Life Worth Living?" (1895)
+275 | ~ | Act as if what you do makes a difference. It does. | attributed to William James
+276 | ✓ | I am not a product of my circumstances. I am a product of my decisions. | Stephen Covey, The 7 Habits of Highly Effective People
+277 | ✓ | You do not rise to the level of your goals. You fall to the level of your systems. | James Clear, Atomic Habits
+278 | ✓ | Every action you take is a vote for the type of person you wish to become. | James Clear, Atomic Habits
+279 | ✓ | We cannot change the cards we are dealt, just how we play the hand. | Randy Pausch, The Last Lecture
+280 | ✓ | The brick walls are there for a reason. They let us prove how badly we want things. | Randy Pausch, The Last Lecture
+281 | ✓ | Experience is what you get when you didn't get what you wanted. | Randy Pausch, The Last Lecture
+282 | ✓ | You can't stop the waves, but you can learn to surf. | Jon Kabat-Zinn, Wherever You Go, There You Are
+283 | ✓ | Be so good they can't ignore you. | Steve Martin
+284 | ✓ | Stay hungry. Stay foolish. | Steve Jobs, Stanford commencement (2005)
+285 | ✓ | You can't connect the dots looking forward; you can only connect them looking backwards. | Steve Jobs, Stanford commencement (2005)
+286 | ✓ | Your time is limited, so don't waste it living someone else's life. | Steve Jobs, Stanford commencement (2005)
+287 | ✓ | When you want to succeed as bad as you want to breathe, then you'll be successful. | Eric Thomas, "How Bad Do You Want It?"
+288 | ~ | Don't wish it were easier. Wish you were better. | attributed to Jim Rohn
+289 | ~ | Discipline is the bridge between goals and accomplishment. | attributed to Jim Rohn
+290 | ~ | Either you run the day or the day runs you. | attributed to Jim Rohn
+291 | ~ | Motivation is what gets you started. Habit is what keeps you going. | attributed to Jim Ryun
+292 | ~ | You've got to get up every morning with determination if you're going to go to bed with satisfaction. | attributed to George Lorimer
+293 | ~ | A river cuts through rock not because of its power, but its persistence. | attributed to Jim Watkins
+294 | ~ | Success is the sum of small efforts, repeated day in and day out. | attributed to Robert Collier
+295 | ~ | Dreams don't work unless you do. | attributed to John C. Maxwell
+296 | ~ | There are no shortcuts to any place worth going. | attributed to Beverly Sills
+297 | ~ | Inaction breeds doubt and fear. Action breeds confidence and courage. | attributed to Dale Carnegie
+298 | ~ | Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all. | attributed to Dale Carnegie
+299 | ~ | Even if you're on the right track, you'll get run over if you just sit there. | attributed to Will Rogers
+300 | ~ | Don't let yesterday take up too much of today. | attributed to Will Rogers
+301 | ~ | Life is ten percent what happens to you and ninety percent how you respond to it. | attributed to Charles R. Swindoll
+302 | ~ | It's not the load that breaks you down, it's the way you carry it. | attributed to Lena Horne
+303 | ~ | Turn your wounds into wisdom. | attributed to Oprah Winfrey
+304 | ~ | Hope is being able to see that there is light despite all of the darkness. | attributed to Desmond Tutu
+305 | ~ | Do not wait to strike till the iron is hot; but make it hot by striking. | attributed to W. B. Yeats
+306 | ~ | The way to get started is to quit talking and begin doing. | attributed to Walt Disney
+307 | ~ | I'd rather regret the things I've done than regret the things I haven't done. | attributed to Lucille Ball
+308 | ~ | Talent is a pursued interest. Anything that you're willing to practice, you can do. | attributed to Bob Ross
+
+== 12. Screen: film, TV, anime ==
+309 | ✓ | It's not who I am underneath, but what I do that defines me. | Batman Begins (2005)
+310 | ✓ | With great power comes great responsibility. | Spider-Man (2002)
+311 | ✓ | Anyone can wear the mask. | Spider-Man: Into the Spider-Verse (2018)
+312 | ✓ | I can do this all day. | Captain America: The First Avenger (2011)
+313 | ✓ | Sometimes you gotta run before you can walk. | Tony Stark, Iron Man (2008)
+314 | ✓ | Don't ever let somebody tell you you can't do something. Not even me. | The Pursuit of Happyness (2006)
+315 | ✓ | You got a dream, you gotta protect it. | The Pursuit of Happyness (2006)
+316 | ✓ | Going in one more round when you don't think you can. That's what makes all the difference in your life. | Rocky IV (1985)
+317 | ✓ | Remember who you are. | Mufasa, The Lion King (1994)
+318 | ✓ | The flower that blooms in adversity is the most rare and beautiful of all. | The Emperor, Mulan (1998)
+319 | ✓ | Keep moving forward. | Meet the Robinsons (2007)
+320 | ✓ | You're braver than you believe, stronger than you seem, and smarter than you think. | Christopher Robin, Pooh's Grand Adventure (1997)
+321 | ✓ | Carpe diem. Seize the day, boys. Make your lives extraordinary. | Dead Poets Society (1989)
+322 | ✓ | No matter what anybody tells you, words and ideas can change the world. | Dead Poets Society (1989)
+323 | ✓ | Every man dies, not every man really lives. | Braveheart (1995)
+324 | ✓ | Great men are not born great, they grow great. | Mario Puzo, The Godfather
+325 | ✓ | Fear is not real. It is a product of thoughts you create. Danger is very real, but fear is a choice. | After Earth (2013)
+326 | ✓ | Clear eyes, full hearts, can't lose. | Friday Night Lights
+327 | ✓ | It does not do to dwell on dreams and forget to live. | Dumbledore, Harry Potter and the Philosopher's Stone
+328 | ✓ | It is our choices that show what we truly are, far more than our abilities. | Dumbledore, Harry Potter and the Chamber of Secrets
+329 | ✓ | Not all those who wander are lost. | Tolkien, The Fellowship of the Ring
+330 | ✓ | Even the smallest person can change the course of the future. | Galadriel, The Fellowship of the Ring (2001)
+331 | ✓ | I can't carry it for you, but I can carry you! | Sam, The Return of the King
+332 | ✓ | Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you. | Tyrion Lannister, A Game of Thrones
+333 | ✓ | You must never give in to despair. Allow yourself to slip down that road and you surrender to your lowest instincts. | Uncle Iroh, Avatar: The Last Airbender
+334 | ✓ | Sometimes the best way to solve your own problems is to help someone else. | Uncle Iroh, Avatar: The Last Airbender
+335 | ✓ | Pride is not the opposite of shame, but its source. True humility is the only antidote to shame. | Uncle Iroh, Avatar: The Last Airbender
+336 | ✓ | People's dreams never end! | Blackbeard, One Piece
+337 | ✓ | A dropout will beat a genius through hard work. | Rock Lee, Naruto
+338 | ✓ | Hard work is worthless for those that don't believe in themselves. | Naruto Uzumaki, Naruto
+339 | ✓ | I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way! | Naruto Uzumaki, Naruto
+340 | ✓ | If you win, you live. If you lose, you die. If you don't fight, you can't win! | Eren Yeager, Attack on Titan
+341 | ✓ | Power comes in response to a need, not a desire. | Goku, Dragon Ball Z
+
+== 13. Music ==
+342 | ✓ | The marathon continues. | Nipsey Hussle
+343 | ✓ | We gon' be alright. | Kendrick Lamar, "Alright" (2015)
+344 | ✓ | I'm not a businessman, I'm a business, man. | Jay-Z, "Diamonds from Sierra Leone (Remix)" (2005)
+345 | ~ | Reality is wrong. Dreams are for real. | attributed to Tupac Shakur

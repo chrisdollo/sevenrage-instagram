@@ -23,6 +23,8 @@
   - "going through some shit drake ain't made a song for yet"
   - "If newton saw the way I be moving these days he'd add a fourth law of motion"
   - "Get your spark back my man."
+- **Never defeated:** relatable lines can be heavy, but the person is always
+  still standing. No hopeless or giving-up lines.
 - **Tone:** Casual, conversational, a little funny, a little heavy. Feels like a
   text from a friend at 1am. Mix of three kinds of post:
   1. **Relatable struggle**: going through it, hiding it, nobody noticing.
@@ -30,7 +32,8 @@
   3. **Confident flex / humor**: playful, cocky lines about moving different.
 - **Format rules:**
   - One line, usually under 20 words. Two sentences max.
-  - Mostly lowercase, light punctuation, no hashtags in the image.
+  - Sentence case: capital first letter and capital "I". Light punctuation,
+    no hashtags in the image.
   - Spoken grammar is fine ("I be", "ain't", "lowkey", "man").
   - The twist or punch goes at the end of the line.
 - **Words I actually use:** man, lowkey, fr, ain't, be (habitual), going through
@@ -47,8 +50,8 @@
 ## Look
 
 - **Theme:** Bone & Ink. Background #EFEAE0, text #141414, muted #7A7268,
-  accent rust #B4462B. Logo: `logo.png`. Posts are rendered and published
-  automatically by `autopost/` on GitHub Actions, twice a day.
+  accent rust #B4462B. Logo: `logo.jpg`. Posts are rendered and published
+  automatically by `autopost/` on GitHub Actions, six times a day.
 - **Post styles:** alternate tweet-style (original 7rage lines from
   `tweets.txt`) and author-quote style (borrowed quotes from `quotes.txt`,
   credited). Occasionally a photo with a quote over it.

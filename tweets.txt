@@ -1,163 +1,344 @@
 # 7rage original tweet-style lines. Format: NUMBER. text
-# Sections (== A. ... ==) set the category make-week uses. Add new lines at the end of a section with the next free number.
+# Sections (== A. ... ==) set the category. Add new lines at the end of a section with the next free number.
+# Sentence case: capital first letter and capital "I". Slang is fine (ain't, be, gonna).
 
 == A. Going through it ==
-1. turned 20-something and suddenly every week got a boss fight
-2. nobody told me being an adult was just paying for stuff and pretending you're fine
-3. man be laughing in the group chat and staring at the ceiling at 3am
-4. they ask how you doing and you say "chillin" like you ain't holding the whole roof up
-5. the older i get the more i understand why my dad sat in the car for 20 minutes before coming inside
-6. growing up is realizing your parents was winging it too
-7. bills don't care that you had a long week
-8. some days you're the motivation. some days you need it
-9. lowkey tired of being strong but i ain't got another setting
-10. checking on everybody and nobody asking back. it's cool tho
-11. being the "he got it handled" friend is heavy sometimes
-12. man really be going through it with a straight face
-13. my mind got 47 tabs open and one of them is playing music i can't find
-14. adulting is just solving problems you didn't know existed last year
-15. she said "we need to talk" and my whole life flashed before my eyes
-16. relationships take practice and i been skipping the drills
-17. talking to people is hard. talking to the right people is harder
-18. lost some friends this year. not mad. we just grew in different directions
-19. quiet don't mean i'm good. it means i'm handling it
-20. the "i'm fine" got so good even i started believing it
-21. me at 17: i'll have it figured out by 25. me at 25: what's a 401k
-22. somebody explain why everything costs more and i'm getting paid the same
-23. life hits different when you realize nobody's coming to save you
-24. tired in a way sleep don't fix
-25. been carrying this year like groceries. one trip. no matter what
-26. crazy how you can be surrounded by people and still feel like you on your own
-27. every year the problems get bigger. so do you
-28. my 9 to 5 gave me a 5 to 9 personality
-29. nobody gonna clap for you paying rent on time but you should be proud
-30. heartbreak at 16: the end of the world. heartbreak at 26: monday, back to work
-31. some battles you fight quiet because explaining them is another battle
-32. man just want one week where nothing breaks
-33. growing up is learning that simple and easy ain't the same thing
-34. it's simple. get up, work, be good to people. simple ain't easy tho
-35. everybody wants the glow up. nobody wants the 6am part
-101. man be giving the best advice in the group chat then going home to a problem he can't text nobody about
-102. smiled in every picture this year. the camera don't know nothing
-103. replied "lol" to a message that took me out for the whole day
-104. nobody sees the version of you that almost didn't get out of bed today
-105. my phone at 2% and so am i. only one of us got a charger
-106. everybody at the function think i'm the life of it. i'm counting down til i can leave
-107. sat in the shower 40 minutes solving problems that ain't even happened yet
-108. stopped telling people what i'm going through cause they start looking at me different
-109. you ever be so tired of your own thoughts you put a podcast on just to drown them out
-110. money tight, heart tired, still texted my mom "everything good
-111. some nights the quiet louder than anything
-112. hardest part of growing up is watching your parents get older and acting like you didn't notice
-113. got a job, got bills, got responsibilities. still ain't got the answers
-114. she moved on and i'm still finding her hair ties in my car
-115. weird how you can miss somebody you know you shouldn't go back to
-116. the kind of tired where you sit in the dark and don't even reach for the light switch
-117. everybody wanna know your plans. nobody wanna hear you ain't got one yet
-118. watching everybody post wins while i'm just trying to make it to friday
+1. Turned 20-something and suddenly every week got a boss fight
+2. Nobody told me being an adult was just paying for stuff and pretending you're fine
+3. Man be laughing in the group chat and staring at the ceiling at 3am
+4. They ask how you doing and you say "chillin" like you ain't holding the whole roof up
+5. The older I get the more I understand why my dad sat in the car for 20 minutes before coming inside
+6. Growing up is realizing your parents were winging it too
+7. Bills don't care that you had a long week
+8. Some days you're the motivation. Some days you need it
+11. Being the "he got it handled" friend is heavy sometimes
+12. Man really be going through it with a straight face
+13. My mind got 47 tabs open and one of them is playing music I can't find
+14. Adulting is just solving problems you didn't know existed last year
+15. She said "we need to talk" and my whole life flashed before my eyes
+16. Relationships take practice and I been skipping the drills
+17. Talking to people is hard. Talking to the right people is harder
+18. Lost some friends this year. Not mad. We just grew in different directions
+19. Quiet don't mean I'm good. It means I'm handling it
+21. Me at 17: "I'll have it figured out by 25." Me at 25: "What's a 401k?"
+22. Somebody explain why everything costs more and I'm getting paid the same
+25. Been carrying this year like groceries. One trip. No matter what
+27. Every year the problems get bigger. So do you
+29. Nobody gonna clap for you paying rent on time but you should be proud
+30. Heartbreak at 16: the end of the world. Heartbreak at 26: Monday, back to work
+31. Some battles you fight quiet because explaining them is another battle
+32. Man just want one week where nothing breaks
+33. Growing up is learning that simple and easy ain't the same thing
+34. It's simple. Get up, work, be good to people. Simple ain't easy tho
+35. Everybody wants the glow up. Nobody wants the 6am part
+101. Man be giving the best advice in the group chat then going home to a problem he can't text nobody about
+104. Nobody sees the version of you that almost didn't get out of bed today. But you did
+106. Everybody at the function thinks I'm the life of it. I'm counting down till I can leave
+107. Sat in the shower 40 minutes solving problems that ain't even happened yet
+110. Money tight, heart tired, still texted my mom "everything good"
+112. Hardest part of growing up is watching your parents get older and acting like you didn't notice
+113. Got a job, got bills, got responsibilities. Still ain't got the answers
+115. Weird how you can miss somebody you know you shouldn't go back to
+117. Everybody wanna know your plans. Nobody wanna hear you ain't got one yet
+118. Watching everybody post wins while I'm just trying to make it to Friday
+221. Being an adult is mostly answering "you good?" with "yeah" and figuring it out in the car
+222. Took a quick nap at 4 and woke up questioning every choice I've made since 2019
+223. Every year I say this is my year. Every year the year says "we'll see"
+224. Got a lot on my plate. Still finishing it
+225. Grown man responsibilities with a kid's sleep schedule
+226. Nobody tells you half of adulthood is waiting on hold
+227. Rent due, car making noises, phone cracked. Still smiling. Figure that out
+228. They see the outfit. They don't see the overtime
+229. Being the strong friend means nobody asks. So ask yourself. You good?
+230. Some days I'm the plan. Some days I'm the problem. Working on it
+231. Growing up is finding out your favorite people are human too
+232. Had to become my own big brother this year
+233. Quietly fixing stuff nobody knew was broken
+234. Called my mom just to hear her voice. Didn't even need nothing
+235. Paying for my own groceries made me look at my parents different
+236. Every time I get ahead, something in my house breaks. Still ahead
+237. My twenties are just me learning lessons I swore I already learned
+238. Nobody tells you being grown is mostly being tired and doing it anyway
+239. You ever look at your bank account and just laugh? Me too, man. We'll be alright
+240. Life got heavy but so did my deadlift
+241. I keep things to myself. Not because I'm hiding. Because I'm handling it
+242. Crazy how one good conversation with the right person can fix a whole week
+243. Some friendships fade and nobody did anything wrong. Life just moved
+244. Learning to let people go without making them the villain
+245. 25 hits different when your friends start having kids and you just got a plant
+246. Healing is boring. It's mostly drinking water and not texting her
+247. Getting older is realizing peace is the flex
+248. You don't really grow up until you start fixing things instead of complaining about them
+249. They ask what I do for fun. Bro, I pay bills and sleep. It's a lot
+250. Turned off my notifications and found out I had a personality
+251. My circle got smaller and my phone got quieter. My head did too
+252. Being 20-something is having 401k questions on a cereal-for-dinner budget
+253. Still figuring it out. That's the honest answer
+254. Gave myself the talk I needed to hear. Took it well
+255. Some lessons don't come with a teacher. Just a bill
+256. Life been coming at me fast. I been getting faster
+257. Nobody warned me being an adult means calling places on the phone
+258. Learned to cook because takeout was eating my savings. Now I'm a chef with one dish
+259. Every day I wake up with a new problem and an old hoodie. We manage
+260. My hardest year made me my favorite version of me
 
 == B. Get back up ==
-36. moving slow is fine. standing still is the problem
-37. get up. even if it's ugly. get up
-38. you ain't losing. you just ain't done yet
-39. the only way you lose is if you stop showing up
-40. bad day ain't a bad life
-41. do what you can with what you got today. that's enough
-42. you been through worse and you still here. act like it
-43. nobody's coming. good. now you get all the credit
-44. some days the move is just to not quit. that counts
-45. you not behind. you on your own clock
-46. fall down 7 times, get up 8. that's the whole brand
-47. one more round. that's all it ever is
-48. the comeback don't need an audience
-49. it's gonna hurt either way. might as well hurt moving forward
-50. you don't need motivation. you need to start and let it catch up
-51. can't run? walk. can't walk? crawl. just don't park
-52. defeat is a feeling, not a fact
-53. messed up? cool. now you know one more way not to do it
-54. fail again. fail better. keep the receipts
-55. you're allowed to be tired. you're not allowed to quit
-56. the sun always comes back. it never asked permission
-57. this season ain't forever. hold on
-58. look at everything you got through just to be this tired. respect
-59. take the L, keep the lesson, lose the attitude
-60. small steps still leave footprints
-61. you ain't gotta feel ready. you just gotta go
-62. 1% better today. nobody will notice. you will
-63. rest if you need to. just don't make it your address
-64. you in the part of the movie where it look bad. that's how you know it ain't the end
-65. it's not too late. it was never too late
-66. stop waiting for monday. it's tuesday and you can start
-67. 15 year old you would be proud you still standing
-68. you can be broke and still be rich in discipline
-69. if it was easy everybody would be doing it. they ain't. you are
-70. get your spark back. nobody coming to light it for you
-119. you showed up today on half a tank. that's still showing up
-120. you ain't gotta fix your whole life tonight. just wash the dishes
-121. lock in for one hour. then see how you feel
-122. make your bed. that's one win before 8am nobody can take
-123. it's ugly right now. ugly still moves forward
-124. you been surviving on hard mode. imagine what you do when it gets easy
-125. you lost the round, not the fight
-126. stop replaying the mistake. you already paid for it, might as well use it
-127. the version of you that makes it is just you, but you didn't stop
-128. text your boy back, drink some water, go to sleep. tomorrow you swing again
-129. heavy day? cool. you getting stronger just carrying it
-130. you don't need a new year. you need a new morning
-131. nobody's checking if you quit. that's exactly why you can't
-132. still here is a whole flex. don't sleep on it
-133. you can be scared and still go. that's the only kind of brave there is
-134. pick one thing. do it bad. do it again tomorrow
-135. you don't have to win today. you just can't hand it to them
-136. keep swinging. one of these gonna land
+36. Moving slow is fine. Standing still is the problem
+37. Get up. Even if it's ugly. Get up
+38. You ain't losing. You just ain't done yet
+39. The only way you lose is if you stop showing up
+40. Bad day ain't a bad life
+41. Do what you can with what you got today. That's enough
+42. You been through worse and you still here. Act like it
+43. Nobody's coming. Good. Now you get all the credit
+44. Some days the move is just to not quit. That counts
+45. You not behind. You on your own clock
+46. Fall down 7 times, get up 8. That's the whole brand
+47. One more round. That's all it ever is
+48. The comeback don't need an audience
+49. It's gonna hurt either way. Might as well hurt moving forward
+50. You don't need motivation. You need to start and let it catch up
+51. Can't run? Walk. Can't walk? Crawl. Just don't park
+52. Defeat is a feeling, not a fact
+53. Messed up? Cool. Now you know one more way not to do it
+54. Fail again. Fail better. Keep the receipts
+55. You're allowed to be tired. You're not allowed to quit
+56. The sun always comes back. It never asked permission
+57. This season ain't forever. Hold on
+58. Look at everything you got through just to be this tired. Respect
+59. Take the L, keep the lesson, lose the attitude
+60. Small steps still leave footprints
+61. You ain't gotta feel ready. You just gotta go
+62. 1% better today. Nobody will notice. You will
+63. Rest if you need to. Just don't make it your address
+64. You in the part of the movie where it looks bad. That's how you know it ain't the end
+65. It's not too late. It was never too late
+66. Stop waiting for Monday. Today works fine
+67. 15-year-old you would be proud you still standing
+68. You can be broke and still be rich in discipline
+69. If it was easy everybody would be doing it. They ain't. You are
+70. Get your spark back. Nobody's coming to light it for you
+119. You showed up today on half a tank. That's still showing up
+120. You ain't gotta fix your whole life tonight. Just wash the dishes
+121. Lock in for one hour. Then see how you feel
+122. Make your bed. That's one win before 8am nobody can take
+123. It's ugly right now. Ugly still moves forward
+124. You been surviving on hard mode. Imagine what you do when it gets easy
+125. You lost the round, not the fight
+126. Stop replaying the mistake. You already paid for it, might as well use it
+127. The version of you that makes it is just you, but you didn't stop
+128. Text your boy back, drink some water, go to sleep. Tomorrow you swing again
+129. Heavy day? Cool. You getting stronger just carrying it
+130. You don't need a new year. You need a new morning
+131. Nobody's checking if you quit. That's exactly why you can't
+132. Still here is a whole flex. Don't sleep on it
+133. You can be scared and still go. That's the only kind of brave there is
+134. Pick one thing. Do it bad. Do it again tomorrow
+135. You don't have to win today. You just can't hand it to them
+136. Keep swinging. One of these gonna land
+261. You don't have to see the whole road. Just the next ten feet
+262. Bad week? You still got the weekend and a second wind
+263. They counted you out early. Make them recount
+264. Your setback got an expiration date. Your effort don't
+265. Fell off? Climb back on. Nobody's keeping score but you
+266. You are not your worst day
+267. The pain is real. So is the progress
+268. Don't let one bad chapter make you put the book down
+269. Pressure is just proof you're carrying something worth it
+270. Slow progress is still progress. Ask a tree
+271. You don't need everybody to believe in you. Just you and maybe your mom
+272. Hard times make the good ones taste better
+273. Lost? Good. Now you get to pick a direction
+274. The fact that it's hard means you're doing something
+275. Keep your head up. Not because it's easy. Because the view is better
+276. Don't quit in the boring part. That's where it starts working
+277. Comebacks are built in rooms with no cameras
+278. You've survived every bad day so far. That's a perfect record
+279. Breathe. Reset. Go again
+280. Nobody gets it right the first time. Or the fifth. Keep going
+281. Some doors close so you stop knocking on the wrong ones
+282. Your pace is your pace. Just keep it
+283. A little better every day adds up to a lot better someday
+284. Hurt but not done
+285. Life knocked you down? Good, now you know where the floor is. Get off it
+286. You can restart your day at 3pm. Nobody said you can't
+287. Strong ain't never feeling weak. Strong is still going
+288. Keep the faith, keep the discipline, keep the receipts
+289. Mistakes don't make you a failure. Quitting on yourself would
+290. Struggle now, smile later
+291. Do it tired. Do it scared. Do it anyway
+292. Nobody built anything good in one day. Lay a brick
+293. You're allowed to start over as many times as it takes
+294. Whatever you're carrying, you're stronger now than when you picked it up
+295. Wishing is free. Building costs effort. Pay it
+296. Don't wait to feel better to do better
+297. One bad day can't cancel a hundred good ones
+298. You're closer than you think. Don't stop now
+299. Every expert was terrible once. Keep practicing
+300. Keep your promises to yourself. Those are the ones that change you
+301. If you can laugh about it, you're already getting over it
+302. Got knocked down. Got up mad. Got up anyway
+303. Heart broken, hands working
+304. It's not about being the best. It's about not being the one who quit
+305. Tomorrow's a new day, but today still counts. Finish strong
 
 == C. Laugh at it ==
-71. moving so locked in lately my phone think i died
-72. my comeback gonna need a director's cut
-73. not saying i'm built different but my struggles got a sequel
-74. me trying to fix my whole life one 30 second video at a time
-75. bank account looking like a horror movie but my spirit unbothered
-76. went through so much this year i should get a season pass
-77. told my problems "not today" and they said "bet, tomorrow then"
-78. my therapist is the gym and my rent is due
-79. if overthinking burned calories i'd be shredded
-80. i don't have a five year plan. i have a "get through this week" plan and it's working
-81. been through enough to write a book but i'd need a better pen
-82. my bad days got bad days. still showed up tho
-83. getting older means your back hurts and you still go to work. warrior behavior
-84. i'm the main character. it's just a low budget film right now
-85. if stress was a sport i'd be in the hall of fame
-86. ran from my problems. they did cardio too
-87. life said "you good?" and i said "define good"
-88. i'm healing. slowly. like the wifi at my grandma's house
-89. finally got my life together. it's in a box somewhere, still unpacking
-90. laughing at my own situation cause crying takes too much energy
-91. my plan b got a plan b and they both looking at me crazy
-92. i'm not lost. i'm just taking the scenic route through hell
-93. the struggle is real but so is the snack i just bought
-94. caught myself giving advice i don't follow. growth is close
-95. they said "it gets easier." they lied. you just get stronger
-96. hit rock bottom and found a basement. still climbing out tho
-97. i'm 1 good week away from being unstoppable. been saying that since 2021
-98. my confidence came back like it forgot its keys
-99. if life gonna keep testing me i'm at least gonna start studying
-100. moving so different lately my old self wouldn't even recognize the walk
-137. budget so tight even my water bill asking if i'm okay
-138. went to the gym once and started walking like i don't owe nobody nothing
-139. my love life on airplane mode and honestly the battery lasting longer
-140. i'd fight for you but my lower back already got plans
-141. bank said insufficient funds. i said that's temporary, my confidence is fully funded
-142. i be giving 110% on 40% battery
-143. my car makes a new noise every week. we growing together
-144. ate noodles four days straight and still walked in like i own a vineyard
-145. cooked dinner without setting off the smoke alarm. we healing
-146. took a deep breath for the first time this month and my body said "who's that
-147. my rent and my age keep going up. at least something in my life consistent
-148. called it a rough patch. it's been a whole rough neighborhood
-149. i'm not broke. i'm in my pre-rich era
-150. i walk in the room like i paid the electric bill. i did not
+71. Moving so locked in lately my phone think I died
+72. My comeback gonna need a director's cut
+73. Not saying I'm built different but my struggles got a sequel
+74. Me trying to fix my whole life one 30-second video at a time
+75. Bank account looking like a horror movie but my spirit unbothered
+76. Went through so much this year I should get a season pass
+77. Told my problems "not today" and they said "bet, tomorrow then"
+79. If overthinking burned calories I'd be shredded
+80. I don't have a five-year plan. I have a "get through this week" plan and it's working
+81. Been through enough to write a book. Still working on the happy ending
+82. My bad days got bad days. Still showed up tho
+83. Getting older means your back hurts and you still go to work. Warrior behavior
+84. I'm the main character. It's just a low-budget film right now
+85. If stress was a sport I'd be in the Hall of Fame
+86. Ran from my problems. They did cardio too
+87. Life said "you good?" and I said "define good"
+88. I'm healing. Slowly. Like the wifi at my grandma's house
+89. Finally got my life together. It's in a box somewhere, still unpacking
+91. My plan B got a plan B and they both looking at me crazy
+92. I'm not lost. I'm just taking the scenic route through hell
+93. The struggle is real but so is the snack I just bought
+94. Caught myself giving advice I don't follow. Growth is close
+95. They said "it gets easier." They lied. You just get stronger
+96. Hit rock bottom and found a basement. Still climbing out tho
+97. I'm 1 good week away from being unstoppable. Been saying that since 2021
+98. My confidence came back like it forgot its keys
+99. If life gonna keep testing me I'm at least gonna start studying
+100. Moving so different lately my old self wouldn't even recognize the walk
+137. Budget so tight even my water bill asking if I'm okay
+138. Went to the gym once and started walking like I don't owe nobody nothing
+139. My love life on airplane mode and honestly the battery lasting longer
+140. I'd fight for you but my lower back already got plans
+141. Bank said insufficient funds. I said that's temporary, my confidence is fully funded
+142. I be giving 110% on 40% battery
+143. My car makes a new noise every week. We growing together
+144. Ate noodles four days straight and still walked in like I own a vineyard
+145. Cooked dinner without setting off the smoke alarm. We healing
+146. Took a deep breath for the first time this month and my body said "who's that?"
+147. My rent and my age keep going up. At least something in my life consistent
+148. Called it a rough patch. It's been a whole rough neighborhood
+149. I'm not broke. I'm in my pre-rich era
+150. I walk in the room like I paid the electric bill. I did not
+306. My bank account and I are in a situationship. Neither of us wants to commit
+307. Been "about to get my life together" for so long it's basically a lifestyle
+308. My plan for the weekend: recover from the week
+309. I'm not lazy. I'm in energy-saving mode
+310. Told myself I'd go to bed early. My phone said "one more video" for two hours
+311. Adult life is googling how to do something you should know how to do by now
+312. I'm on a strict budget. I strictly can't afford anything
+313. Life gave me lemons. Couldn't afford the sugar. Still making it work
+314. Every time I get my life together, life checks if I'm serious
+315. My back cracks louder than my alarm now
+316. Don't worry about me. I'm thriving, emotionally and financially. Mostly emotionally
+317. Grocery prices got me putting stuff back like it's a game show
+318. Me: I'm gonna save money this month. Also me: Bro, it's on sale
+319. Went to bed at 9 like a grown man. Woke up at 9 like a teenager
+320. Life been testing me so much I should get a diploma
+321. I need a nap, a raise, and three to five business days to process
+322. Who needs a gym when you got six bags of groceries and one trip
+323. I don't argue with people. I argue with my alarm
+324. Me in my 20s: freedom. Also me in my 20s: is my knee supposed to sound like that
+325. My hobbies include worrying, snacking, and pretending I'm fine with both
+326. My credit score and my sleep schedule both need a miracle
+327. Called in sick to my own problems today. Back on it tomorrow
+328. They asked where I see myself in 5 years. Bro, I'm trying to see myself at 5pm
+329. I could be a motivational speaker. I already talk to myself in the mirror before work
+330. Out here building generational wealth one coupon at a time
+331. Had $40 and had to choose between groceries and a haircut. The haircut won
+332. My confidence: 100. My bank account: loading
+333. I'm a morning person in theory
+334. The gym saw me twice and started acting like we're friends
+335. Cooking for one is making food for three days and being sick of it by day two
+336. Took the scenic route to success. Got a little lost. Still driving
+337. My life's a work in progress and the contractor keeps taking breaks
+338. I'm not late. I'm on my own time zone
+339. Said "new me" so many times the old me started taking it personal
+340. Stressed, blessed, and slightly underdressed
+341. My ex said I'd never change. I changed my number. Growth
+342. I treat myself like a startup. No funding, all vision
+343. Me explaining my 5-year plan with a straight face and $12
+344. The universe keeps sending me signs. I keep leaving them on read
+345. I got two modes: locked in and lying on the floor
+346. Even my problems got problems. I'm basically running a business
+347. Went for a quick Walmart run and came out with a lamp and no milk
+348. I put the pro in procrastination. Professionally
+349. Life's hard but my playlist is harder
+350. If my life was a movie, this is the part where the training montage starts
 
-# Pairing ideas (post one, then the other the next day):
-# 24 (tired in a way sleep don't fix) → 63 (rest if you need to. just don't make it your address)
-# 20 (the "i'm fine" got so good) → 19 (quiet don't mean i'm good)
-# 96 (rock bottom… basement) → 38 (you ain't losing. you just ain't done yet)
+== D. Up early (5 AM) ==
+151. It's 5am. Nobody's watching. That's exactly why it counts
+152. Alarm went off. The excuses woke up too. Only one of y'all getting out of bed
+153. Up before the sun again. It's starting to feel like competition
+154. Your bed is comfortable. So is staying exactly where you are
+155. Get up. The bills already did
+156. Cold water on the face and a reminder that nobody's coming to do it for you
+157. The early hours don't care how you feel. That's what makes them honest
+158. Every morning you get up when you don't want to is a deposit
+159. The snooze button never paid anybody's rent
+160. Up early. Not because I love mornings. Because I love what they turn into
+161. Wake up, lock in, don't make it a whole conversation
+162. You said you'd start today. It's today
+163. Get dressed like the day owes you something
+164. Morning check: still breathing, still got a shot. Let's go
+165. Feet on the floor before the doubt gets dressed
+166. Some people wait to feel like it. You start and the feeling shows up late
+167. The work don't get easier at 5am. You just get there first
+168. Take the first hour for yourself before the world takes the rest
+169. Quiet house, cold floor, big plans. Let's work
+170. Nobody's gonna remember you slept in. They'll remember what you built
+171. Brush your teeth, wash your face, go be dangerous
+172. 5am you is the reason 5pm you can breathe
+173. Tired is a feeling. Up is a decision
+174. Water, stretch, work. In that order
+175. Real work ain't loud. It's you and the kettle at 5am
+176. Today's not gonna build itself
+177. Get up like somebody's counting on you. Somebody is
+178. You don't need a perfect morning. You need a started one
+179. Lights on. Phone down. Work
+180. Your future self is already up. Don't keep him waiting
+181. Woke up with nothing but a plan and a sore back. Enough to start
+182. One more early morning. One more brick
+183. Most people let the day happen to them. Start yours on purpose
+184. It's still dark out. Good. Get a head start
+185. Don't check your phone first. Check your goals first
+186. Nobody's clapping at 5am. Do it anyway
+187. You got up yesterday. You know you can do it again
+188. The sun's not even up and you already won one
+189. Every day you show up is a day the old you loses
+190. Gym, work, home, repeat. Boring is how it gets built
+191. Make your bed, eat something, handle one hard thing before noon
+192. Ain't no motivation at 5am. Just discipline and a hoodie
+193. You're not too tired. You're out of practice
+194. Do the hard thing first. The rest of the day gets easy
+195. The alarm is not your enemy. Comfort is
+196. Morning. Go get what's yours
+197. Start the day before it starts you
+198. You don't need to feel it. You need to show up
+199. Everybody wants a new life. It starts with getting out of this bed
+200. Today's a blank page. Don't let your phone write it
+201. Get up. Somebody with less is already up
+202. Early mornings are where the quiet ones get ahead
+203. Knock out the thing you've been putting off. Breakfast tastes better after
+204. Up early, talk less, work more
+205. If you're up, you're in the game
+206. Nobody remembers the mornings you felt like it. They see the results
+207. You're one decision away from a different day. Get up
+208. Every alarm is a chance to prove yesterday wrong
+209. You can sleep in when it's built
+210. The early hours are free. Use them like they're expensive
+211. Stop negotiating with the snooze button. It wins every argument
+212. Put your shoes on. Half the battle is shoes
+213. Water first. Excuses never
+214. Wake up proud you didn't quit yesterday
+215. Get up and act like the man you said you'd be
+216. Day's waiting. Bills are waiting. Plans are waiting. Go
+217. You won't always be motivated. Be consistent instead
+218. The hardest rep of the day is getting out of bed. You already did it
+219. It's early. Make it worth it
+220. Everybody's asleep on you. Perfect time to work

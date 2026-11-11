@@ -1,7 +1,7 @@
 # One-time setup (about 1 hour)
 
-After this, @sevenrage7 posts twice a day by itself. You never have to touch
-it again, except to approve new lines once a month (one tap on GitHub).
+After this, @sevenrage7 posts six times a day by itself. You never have to touch
+it again, except to approve new lines every week or two (one tap on GitHub).
 
 You'll create 3 free accounts and paste 3 keys. Do the steps in order.
 
@@ -142,15 +142,15 @@ secret**. Add each one (name exactly as shown):
 2. **Refresh Instagram token → Run workflow**. It should go green. That proves
    the Instagram key and the renewer key both work.
 3. **Post to Instagram → Run workflow**. In the *now* box, type the current
-   New York date with `T08:10`, for example `2026-11-12T08:10`. Click **Run**.
+   New York date with `T05:10`, for example `2026-11-12T05:10`. Click **Run**.
    ⚠️ **This posts for real.** Use it for your first post.
    - Both jobs should go green, and the post appears on @sevenrage7 within a
      minute or two.
    - A commit "posted 2026-…" appears in the repo. That's the bot recording
      what it posted.
 
-Done. From now on it posts at about **8:00 AM and 7:00 PM New York time**
-every day (GitHub's scheduler can run up to ~30 minutes late).
+Done. From now on it posts at about **12 AM, 5 AM, 10 AM, 12 PM, 4 PM and
+7 PM New York time** every day (usually within 20 minutes of the slot).
 
 ---
 

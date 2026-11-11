@@ -70,7 +70,10 @@ def spaced(d, xy, text, f, color, tracking):
 
 
 def avatar(size):
-    logo = Image.open(ROOT / "logo.png").convert("RGB").resize((size * 4, size * 4), Image.LANCZOS)
+    logo = Image.open(ROOT / "logo.jpg").convert("RGB")
+    s = min(logo.size)
+    left, top = (logo.width - s) // 2, (logo.height - s) // 2
+    logo = logo.crop((left, top, left + s, top + s)).resize((size * 4, size * 4), Image.LANCZOS)
     mask = Image.new("L", logo.size, 0)
     ImageDraw.Draw(mask).ellipse((0, 0, *logo.size), fill=255)
     logo.putalpha(mask)
@@ -115,28 +118,20 @@ def quote(text, source):
 
 
 def reel(post, out_path, mood=None, rng=None):
-    """7-second 9:16 video: the post on bone with a slow push-in. mood=None means a silent track
-    (Instagram is happier with an audio stream present, even a silent one)."""
-    import numpy as np
+    """7-second 9:16 video: the post, perfectly still, centred on bone. mood=None means a silent
+    track (Instagram is happier with an audio stream present, even a silent one)."""
     audio = music.generate(mood, SECONDS, rng) if mood else music.silence(SECONDS)
+    frame = Image.new("RGB", (RW, RH), BG)
+    frame.paste(post, ((RW - W) // 2, (RH - H) // 2))
     with tempfile.TemporaryDirectory() as tmp:
-        wav = Path(tmp) / "a.wav"
+        wav, png = Path(tmp) / "a.wav", Path(tmp) / "f.png"
         music.write_wav(wav, audio)
+        frame.save(png)
         cmd = [imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error",
-               "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{RW}x{RH}", "-r", str(FPS), "-i", "-",
-               "-i", str(wav), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high",
-               "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
-               "-shortest", "-movflags", "+faststart", str(out_path)]
-        p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-        frames = FPS * SECONDS
-        canvas = Image.new("RGB", (RW, RH), BG)
-        for i in range(frames):
-            t = i / (frames - 1)
-            s = 1 + 0.04 * (t * t * (3 - 2 * t))
-            w, h = round(W * s), round(H * s)
-            frame = canvas.copy()
-            frame.paste(post.resize((w, h), Image.BICUBIC), ((RW - w) // 2, (RH - h) // 2))
-            p.stdin.write(np.asarray(frame).tobytes())
-        p.stdin.close()
-        if p.wait() != 0:
+               "-loop", "1", "-framerate", str(FPS), "-i", str(png), "-i", str(wav),
+               "-t", str(SECONDS), "-c:v", "libx264", "-tune", "stillimage", "-pix_fmt", "yuv420p",
+               "-profile:v", "high", "-preset", "medium", "-crf", "18", "-r", str(FPS),
+               "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart",
+               str(out_path)]
+        if subprocess.run(cmd).returncode != 0:
             raise RuntimeError("ffmpeg failed")

@@ -1,8 +1,9 @@
 """7rage autoposter.
 
+  python autopost/run.py check            fast: is a slot due now? (no dependencies)
   python autopost/run.py prepare          decide if a post is due now; if so render it into site/
   python autopost/run.py publish          publish the prepared post to Instagram (needs IG_TOKEN, PAGES_URL)
-  python autopost/run.py preview tweet 24 render a line to previews/ (also: quote 48, slot 2026-11-16-am)
+  python autopost/run.py preview tweet 24 render a line to previews/ (also: quote 48, slot 2026-11-16-0500)
   python autopost/run.py status           what's been posted, what's left
 
 Env for testing: NOW=2026-11-16T08:10 pretends it's that local time.
@@ -36,7 +37,7 @@ R = _LazyRender()
 STATE = C.ROOT / "state.json"
 SITE = C.ROOT / "site"
 JOB = C.ROOT / ".job.json"
-WINDOW_HOURS = 3  # a slot can still go out this long after its time (GitHub cron can lag)
+WINDOW_HOURS = 2  # a slot can still go out this long after its time (GitHub cron can lag)
 API_VERSION = os.environ.get("IG_API_VERSION", "v24.0")
 
 
@@ -68,7 +69,7 @@ def output(**kv):
 
 
 def due_slot(state, now):
-    for slot in ("pm", "am"):
+    for slot in sorted(C.SLOT_TIMES, reverse=True):
         h, m = C.SLOT_TIMES[slot]
         at = now.replace(hour=h, minute=m, second=0, microsecond=0)
         sid = f"{now.date().isoformat()}-{slot}"
@@ -85,7 +86,7 @@ def build(sid, slot, date, state, outdir, rng):
     job = {"slot": sid, "kind": kind, "cat": cat, "files": [], "text": []}
     if kind == "tweet":
         (n,) = C.pick([k for k, (c, _) in tweets.items() if c == cat], state["used"]["tweet"], date, rng)
-        mood = C.MOOD[cat] if rng.random() < C.MUSIC_SHARE else None
+        mood = C.MOOD[cat] if rng.random() < C.MUSIC_SHARE[cat] else None
         R.reel(R.tweet(tweets[n][1]), outdir / f"{sid}.mp4", mood, rng)
         job.update(nums=[n], files=[f"{sid}.mp4"], text=[tweets[n][1]], music=mood or "silent",
                    caption=C.caption(cat, rng))

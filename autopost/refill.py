@@ -15,10 +15,11 @@ from pathlib import Path
 import anthropic
 
 ROOT = Path(__file__).resolve().parent.parent
-THRESHOLD = 40
-COUNTS = {"A": 18, "B": 18, "C": 14}
-NAMES = {"A": "going through it (relatable)", "B": "get back up (quiet motivation)",
-         "C": "laugh at it (humor and flex)"}
+THRESHOLD = 80  # about two weeks of posting at 6 a day
+COUNTS = {"A": 16, "B": 10, "C": 14, "D": 16}
+NAMES = {"A": "going through it (relatable, never hopeless)", "B": "get back up (quiet motivation)",
+         "C": "laugh at it (humor and flex)",
+         "D": "up early (posted at 5 AM: get up and go to work energy, no 'rise and grind' cliches)"}
 
 
 def output(**kv):
@@ -60,8 +61,9 @@ Every line already in the library (don't repeat these or write close variations 
 Write new original lines:
 {wanted}
 
-Each line: one or two short sentences, usually under 20 words, mostly lowercase, spoken grammar is fine,
-the punch at the end. Write like a real person texting a friend, not a motivational poster. No em dashes,
+Each line: one or two short sentences, usually under 20 words, sentence case (capital first letter and capital
+"I"), spoken grammar is fine, the punch at the end. Even the "going through it" lines must not sound defeated
+or hopeless: relatable, but the person is still standing. Write like a real person texting a friend, not a motivational poster. No em dashes,
 no hashtags, no emoji, no slurs, nothing that puts down women or any group. Don't quote or paraphrase
 famous people or songs. Every line should be something a 17-30 year old would send to a friend with
 "this is you"."""
@@ -86,6 +88,7 @@ famous people or songs. Every line should be something a 17-30 year old would se
 def clean(line):
     line = re.sub(r"\s*[—–]\s*", ", ", line.strip().strip('"'))
     line = re.sub(r"\s+", " ", line)
+    line = re.sub(r"\bi\b", "I", line[:1].upper() + line[1:])
     return line if 3 < len(line) <= 160 else None
 
 
