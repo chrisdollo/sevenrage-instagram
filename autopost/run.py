@@ -37,7 +37,8 @@ R = _LazyRender()
 STATE = C.ROOT / "state.json"
 SITE = C.ROOT / "site"
 JOB = C.ROOT / ".job.json"
-WINDOW_HOURS = 2  # a slot can still go out this long after its time (GitHub cron can lag)
+# A slot stays due until the next slot's time (the last one until midnight): GitHub's
+# scheduler can go hours without firing, and a late post beats a skipped one.
 API_VERSION = os.environ.get("IG_API_VERSION", "v24.0")
 
 
@@ -69,12 +70,12 @@ def output(**kv):
 
 
 def due_slot(state, now):
-    for slot in sorted(C.SLOT_TIMES, reverse=True):
+    # The most recent slot that has started today; it is due until the next one starts.
+    for slot in sorted(C.SLOT_TIMES, key=C.SLOT_TIMES.get, reverse=True):
         h, m = C.SLOT_TIMES[slot]
-        at = now.replace(hour=h, minute=m, second=0, microsecond=0)
-        sid = f"{now.date().isoformat()}-{slot}"
-        if at <= now < at + dt.timedelta(hours=WINDOW_HOURS) and sid not in state["posted"]:
-            return sid, slot
+        if now >= now.replace(hour=h, minute=m, second=0, microsecond=0):
+            sid = f"{now.date().isoformat()}-{slot}"
+            return (sid, slot) if sid not in state["posted"] else (None, None)
     return None, None
 
 
