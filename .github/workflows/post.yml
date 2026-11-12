@@ -6,7 +6,7 @@ name: Post to Instagram
 # or dropping a scheduled run doesn't skip a post. run.py only posts once per slot.
 on:
   schedule:
-    - cron: "5,25,45 * * * *"
+    - cron: "4,24,44 * * * *"
   workflow_dispatch:
     inputs:
       now:
